@@ -44,7 +44,7 @@ const Visa = () => {
    }, []);
 
   return (
-    <div>
+    <div id="visa">
       <ToastContainer />
       <img
         src="https://demo2wpopal.b-cdn.net/triply/wp-content/uploads/2020/11/breadcrumb-bg.jpg"

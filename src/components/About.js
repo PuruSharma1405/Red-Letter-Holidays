@@ -35,9 +35,10 @@ const About = () => {
       useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+      
   return (
     <div>
-      <div>
+      <div id="about">
         <div className="mx-auto relative flex items-center justify-center">
           <img
             src="https://demo2wpopal.b-cdn.net/triply/wp-content/uploads/2020/11/breadcrumb-bg.jpg"
@@ -163,7 +164,7 @@ const About = () => {
               <div className="w-[50px] h-[2px] bg-[#FEA216] mt-[25px]"></div>
             </div>
             <div className="flex w-[1080px] mx-auto">
-              <p className="text-[#7F6D66] text-2xl text-justify relative right-[10px]">
+              <div className="text-[#7F6D66] text-2xl text-justify relative right-[10px]">
                 Five stars to Red Letter (Ujjawal). Thanks for organising our
                 honeymoon trip and for making it a delightful and unforgettable
                 experience🤩 There are hundreds of resorts in Maldives but the
@@ -174,7 +175,7 @@ const About = () => {
                 <p className="mt-[10px] text-[#b3615b] text-[28px]">
                   Prashant Gupta
                 </p>
-              </p>
+              </div>
             </div>
             <div className="flex w-[1080px] mx-auto">
               <p className="text-[#7F6D66] text-2xl text-justify relative right-[10px]">

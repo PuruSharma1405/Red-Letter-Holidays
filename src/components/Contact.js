@@ -63,7 +63,7 @@ const Contact = () => {
     }, []);
 
   return (
-    <div>
+    <div id="contact">
       <ToastContainer />
       <div className="relative ">
         <img

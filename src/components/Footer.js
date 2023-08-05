@@ -86,10 +86,50 @@ const Footer = () => {
     window.open(url, "_blank");
   };
 
-  const scrollToTop = () => {
-    console.log('worked');
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  const scrollToTopAbout = () => {
+    setTimeout(() => {
+      const section = document.querySelector("#about");
+      if(section){
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
   };
+
+  const scrollToTopContact=()=>{
+    setTimeout(() => {
+      const section = document.querySelector("#contact");
+      if(section){
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
+  }
+
+  const scrollToTopPrivacyPolicy=()=>{
+    setTimeout(() => {
+      const section = document.querySelector("#privacy-policy");
+      if(section){
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
+  }
+
+  const scrollToTopSupport=()=>{
+    setTimeout(() => {
+      const section = document.querySelector("#contact");
+      if(section){
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
+  }
+
+  const scrollToVisa=()=>{
+    setTimeout(() => {
+      const section = document.querySelector("#visa");
+      if(section){
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
+  }
 
   return (
     <div className="mt-[20px]">
@@ -176,16 +216,16 @@ const Footer = () => {
             <h6 className="text-[#FEA116]">Company</h6>
             <div className="bg-[white] w-[70px] h-[1px] mx-[2px] mt-[10px]"></div>
             <div className="mt-[20px]">
-              <Link to="/about" className="text-white btn-link ">
+              <Link to="/about" className="text-white btn-link " onClick={scrollToTopAbout}>
                 About Us
               </Link>
-              <Link to="/contact" className="text-white btn-link ">
+              <Link to="/contact" className="text-white btn-link " onClick={scrollToTopContact}>
                 Contact Us
               </Link>
-              <Link to="/privacy-policy" className="text-white btn-link">
+              <Link to="/privacy-policy" className="text-white btn-link" onClick={scrollToTopPrivacyPolicy}>
                 Privacy Policy
               </Link>
-              <Link to="/contact" className="text-white btn-link">
+              <Link to="/contact" className="text-white btn-link" onClick={scrollToTopSupport}>
                 Support
               </Link>
             </div>
@@ -222,7 +262,7 @@ const Footer = () => {
               >
                 International Packages
               </Link>
-              <Link to="/visa" className="text-white btn-link">
+              <Link to="/visa" className="text-white btn-link" onClick={scrollToVisa}>
                 Visa
               </Link>
             </div>
