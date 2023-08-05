@@ -1,0 +1,57 @@
+.singleCard {
+  height: 531px;
+  position: relative;
+}
+
+.singleCard img {
+  height: 100%;
+}
+
+.singleCard:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.circleHome {
+  height: 450px;
+  position: relative;
+  filter: drop-shadow(0 0 10px #333);
+}
+
+.circleHome img {
+  height: 100%;
+}
+
+.figcaption {
+  height: 20%;
+  width: 100%;
+  background: linear-gradient(#333, #333);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #fea216;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  width: 90%;
+}
+
+.btn:hover {
+  color: white;
+  font-weight: bold;
+  background-color: orangered;
+  transition: 300ms;
+}

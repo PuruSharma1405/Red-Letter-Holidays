@@ -1,0 +1,35 @@
+.input{
+    height:57px;
+    width:305px;
+    margin:20px;
+    border:1px solid #FEA116;
+}
+
+.input[type=text]:focus{
+    border: 3px solid #DEE2E6;
+}
+
+.inputSubject{
+        height: 57px;
+        width: 660px;
+        margin: 20px;
+        border:1px solid #DEE2E6;
+        padding:20px;
+}
+
+.inputSubject::placeholder{
+    margin-left:20px;   
+}
+
+.inputSubject[type=text]:focus{
+    border: 3px solid #DEE2E6;
+}
+
+@media only screen and (max-width: 1400px) {
+    .contact-map-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:30px;
+    }
+}

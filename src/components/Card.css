@@ -1,0 +1,14 @@
+ .bannerimg{
+    z-index:0;
+ }
+ .info{
+    text-align: justify;
+}
+
+ .infodiv{
+    position: absolute;
+   height: 100%;
+   background: rgba(15, 23, 43, 0.6);
+    bottom:0rem;
+    z-index:2;
+}  

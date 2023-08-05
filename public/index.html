@@ -24,11 +24,57 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>Red Letter Holidays</title>
+    <style>
+      .loader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #fff;
+        color: #000;
+        overflow-y: hidden;
+      }
+    
+      .loader .heading {
+        font-size: 36px;
+        text-align: center;
+        animation: heart-beat 4s infinite ease-in;
+        z-index: 1;
+      }
+    
+      .loader .sub-heading {
+        font-size: 18px;
+        text-align: center;
+        color: #4b4b4b;
+        z-index: 1;
+      }
+    
+      @keyframes heart-beat {
+        0% {
+          opacity: 0.1;
+        }
+    
+        50% {
+          opacity: 1;
+        }
+    
+        100% {
+          opacity: 0.1;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <section class="loader">
+        <h1 class="heading">INITIALIZING</h1>
+        <p clas="sub-heading">bear with us...</p>
+      </section>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
