@@ -152,6 +152,15 @@ button.bouncy:hover {
   }
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1200px)  {
+  .home-circles {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      right:100px;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .home-packages {
     display: flex;
@@ -167,5 +176,50 @@ button.bouncy:hover {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px)  {
+  .home-specificcircle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1300px)  {
+  .privacy-policy-top {
+    width:1000px;
+    margin-left:60px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1080px)  {
+  .privacy-policy-top {
+    width:800px;
+    margin-left:60px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1080px)  {
+  .visa {
+    width:800px;
+    margin-left:60px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px)  {
+  .visa-banner {
+    position: absolute;
+    top:50px;
+  }
+}
+
+@media only screen and (max-width: 1000px)  {
+  .visa-banner {
+    position: absolute;
+    top:50px;
   }
 }

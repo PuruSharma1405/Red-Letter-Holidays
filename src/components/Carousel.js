@@ -62,7 +62,7 @@ export default function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item active={index === 1}>
           <div className="carousel-item active relative">
-            <img className="w-100 bg-cover" src={Carousel2} alt="carousel" />
+            <img className="w-100 bg-cover h-[1080px]" src={Carousel2} alt="carousel" />
             <Carousel.Caption>
               <div className="carousel-caption flex flex-col items-center justify-center h-[max-content]">
                 <div className="p-3 max-w-[700px] flex flex-col items-center">
@@ -84,7 +84,7 @@ export default function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item active={index === 2}>
           <div className="carousel-item active relative">
-            <img className="w-100 bg-cover" src={Carousel2} alt="carousel" />
+            <img className="w-100 bg-cover h-[1080px]" src={Carousel2} alt="carousel" />
             <Carousel.Caption>
               <div className="carousel-caption flex flex-col items-center justify-center h-[max-content]">
                 <div className="p-3 max-w-[700px] flex flex-col items-center">

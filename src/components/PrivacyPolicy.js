@@ -25,10 +25,10 @@ const PrivacyPolicy = () => {
         alt="visa"
       />
       <div className="w-[1200px] mx-auto leading-8 fade-in-text">
-        <h1 className="text-[#FEA216] text-center mt-[10px]">
+        <h1 className="text-[#FEA216] text-center mt-[10px] privacy-policy-top">
           Privacy Policy for Red Letter Holidays
         </h1>
-        <div className="text-[#7F6D66] mt-[15px]">
+        <div className="text-[#7F6D66] mt-[15px] privacy-policy-top">
           <p>
             Red Letter Holidays is an online travel platform that offers
             information on various destinations around the world, including
@@ -50,8 +50,8 @@ const PrivacyPolicy = () => {
             ensure its protection.
           </p>
         </div>
-        <h2 className="text-[#FEA216] text-center">Data Protection Rules</h2>
-        <p className="text-[#7F6D66] mt-[10px]">
+        <h2 className="text-[#FEA216] text-center privacy-policy-top">Data Protection Rules</h2>
+        <p className="text-[#7F6D66] mt-[10px] privacy-policy-top">
           At Red Letter Holidays, we have a policy not to disclose visitors'
           personal information with any third parties who are not affiliated
           with us. However, if any link on our website takes visitors to another
@@ -62,10 +62,10 @@ const PrivacyPolicy = () => {
           offered by Red Letter Holidays, we assume that visitors accept the
           practices described in this privacy policy.
         </p>
-        <h2 className="text-[#FEA216] capitalize text-center">
+        <h2 className="text-[#FEA216] capitalize text-center privacy-policy-top">
           Why we use your personal information
         </h2>
-        <ul>
+        <ul className='privacy-policy-top'>
           <li className="text-[#7F6D66]">
             1.To ensure that your travel plans go smoothly, we will verify your
             reservations with the relevant service providers. This is done to
@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
           </li>
         </ul>
         <div
-          className={`fade-in-section ${isVisible ? "is-visible" : ""} `}
+          className={`fade-in-section ${isVisible ? "is-visible" : ""} privacy-policy-top`}
           ref={privacypolicyref}
         >
           <h2 className="text-[#FEA216] capitalize text-center">

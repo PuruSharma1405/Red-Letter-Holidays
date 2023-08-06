@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PaymentImage from "../assets/RedLetterHolidays.jpg";
-
+import './Payments.css'
 const Payment = () => {
   const[formData,setFormData]=useState({
     fullName:'',
@@ -97,8 +97,8 @@ const Payment = () => {
           </div>
         </div>
       </div> */}
-      <div className="flex flex-col items-center justify-center mt-[30px]">
-        <h3>Please Scan This QR Code Using UPI Scanner</h3>
+      <div className="flex flex-col items-center justify-center mt-[30px] payment">
+        <h3 className='text-[#FEA216]'>Please Scan This QR Code Using UPI Scanner</h3>
         <img
           src={PaymentImage}
           alt="online payment img"

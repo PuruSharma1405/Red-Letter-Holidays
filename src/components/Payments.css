@@ -1,0 +1,6 @@
+@media only screen and (min-width: 700px) and (max-width: 1200px)  {
+    .payment {
+        position: relative;
+        right:60px;
+    }
+}

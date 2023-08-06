@@ -46,16 +46,19 @@ const Visa = () => {
   return (
     <div id="visa">
       <ToastContainer />
+      <div className="relative">
       <img
         src="https://demo2wpopal.b-cdn.net/triply/wp-content/uploads/2020/11/breadcrumb-bg.jpg"
         alt="visa"
       />
+      <h3 className="text-center absolute w-full bottom-20 text-white text-4xl uppercase visa-banner">Visa</h3>
+      </div>
       <div>
         <h1 className="text-center mt-[20px] text-[#FEA216]">Fill All the Details,Our Team Will Shortly Contact You</h1>
         <form
           onSubmit={handleSubmit}
           style={formStyles}
-          className=" animated slideInUp"
+          className=" animated slideInUp visa"
         >
           <label style={labelStyles}>
             First Name:
