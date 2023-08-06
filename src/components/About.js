@@ -109,7 +109,7 @@ const About = () => {
           className={`fade-in-section ${isVisible ? "is-visible" : ""} why-us`}
           ref={aboutWhyUsRef}
         >
-          <div className="flex justify-center">
+          <div className="flex justify-center why_us_header">
             <div className="w-[50px] h-[2px] mt-[25px] bg-[#b3615b]"></div>
             <div className="text-center text-[#7F6D66]">
               <h1 className="text-[#b3615b] font-bold uppercase mx-[15px]">
@@ -118,9 +118,9 @@ const About = () => {
             </div>
             <div className="w-[50px] h-[2px] mt-[25px] bg-[#b3615b]"></div>
           </div>
-          <div className="mt-[50px] shadow-md  w-[1047px] mx-auto flex flex-wrap justify-center">
+          <div className="mt-[50px] shadow-md  w-[1047px] mx-auto flex flex-wrap justify-center why_us_points">
             <ol>
-              <div className="w-[1047px] flex justify-center">
+              <div className="w-[1047px] flex justify-center why_us_top_level">
                 <div className="flex">
                   <AiTwotoneStar className="mt-[10px]" />
                   <li className="text-3xl ml-[5px]">
@@ -136,7 +136,7 @@ const About = () => {
                   <li className="text-3xl ml-[5px]">Best Price Guarantee</li>
                 </div>
               </div>
-              <div className="w-[1047px] mx-auto flex ">
+              <div className="w-[1047px] mx-auto flex why_us_bottom_level">
                 <div className="flex">
                   <AiTwotoneStar className="mt-[60px] ml-[40px]" />
                   <li className=" mt-[50px] text-3xl ml-[5px]">
@@ -152,7 +152,7 @@ const About = () => {
           </div>
         </div>
         <div
-          className={`fade-in-section ${isVisibleReviews ? "is-visible" : ""}`}
+          className={`fade-in-section ${isVisibleReviews ? "is-visible" : ""} customer_reviews`}
           ref={aboutReviewsRef}
         >
           <div className="customerreviews">
@@ -164,7 +164,7 @@ const About = () => {
               <div className="w-[50px] h-[2px] bg-[#FEA216] mt-[25px]"></div>
             </div>
             <div className="flex w-[1080px] mx-auto">
-              <div className="text-[#7F6D66] text-2xl text-justify relative right-[10px]">
+              <div className="text-[#7F6D66] text-2xl text-justify relative right-[10px] customer_review_points">
                 Five stars to Red Letter (Ujjawal). Thanks for organising our
                 honeymoon trip and for making it a delightful and unforgettable
                 experience🤩 There are hundreds of resorts in Maldives but the
@@ -178,18 +178,18 @@ const About = () => {
               </div>
             </div>
             <div className="flex w-[1080px] mx-auto">
-              <p className="text-[#7F6D66] text-2xl text-justify relative right-[10px]">
+              <div className="text-[#7F6D66] text-2xl text-justify relative right-[10px] customer_review_points">
                 Had a really good time at Bali with everything managed on time
-                by Red Letter Holidays. Special thanks to Ujjawal for making my
+                by Red Letter Holidays. Special Thanks to Ujjawal for making my
                 honeymoon trip fuss free with the best hotel recommendations and
                 easy travel options..
                 <p className="mt-[10px] text-[#b3615b] text-[28px]">
                   Ankit Choudhary
                 </p>
-              </p>
+              </div>
             </div>
             <div className="flex w-[1080px] mx-auto">
-              <p className="text-[#7F6D66] text-2xl text-justify relative right-[10px]">
+              <div className="text-[#7F6D66] text-2xl text-justify relative right-[10px] customer_review_points">
                 It was a wonderful experience with Red Letter Holidays. My
                 recent trip to Maldives was very well organized by them. Abhinav
                 who was my coordinator did amazing job. He was very
@@ -200,7 +200,7 @@ const About = () => {
                 <p className="mt-[10px] text-[#b3615b] text-[28px]">
                   Haripreeth
                 </p>
-              </p>
+              </div>
             </div>
           </div>
         </div>

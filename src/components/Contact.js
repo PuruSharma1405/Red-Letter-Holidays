@@ -76,7 +76,7 @@ const Contact = () => {
           <h2 className="text-5xl uppercase">Contact Us</h2>
         </div>
       </div>
-      <div className="w-[1200px] mx-auto">
+      <div className="w-[1200px] mx-auto contact-container">
         <div>
           <div className="flex justify-center">
             <div className="flex items-center mt-[20px] animated slideInDown">
@@ -92,7 +92,7 @@ const Contact = () => {
             <span className="text-4xl px-[15px]">For Any Query</span>
           </h1>
         </div>
-        <div className="w-full flex justify-between mt-[50px]">
+        <div className="w-full flex justify-between mt-[50px] contact-details">
           <div className="flex flex-col items-center">
             <div className="flex items-center  animated slideInRight">
               <div className="w-[50px] h-[2px] bg-[#FEA116]"></div>

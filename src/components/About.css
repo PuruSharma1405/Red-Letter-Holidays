@@ -1,18 +1,87 @@
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
     .hero-section {
         display: flex;
         flex-direction: column;
         margin-top:40px;
+        position: relative;
+        right:100px;
     }
 }
 
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
+    .why_us_points {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
+    .customer_reviews {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1250px)  {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        margin-top:40px;
+        position: relative;
+        right:100px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
+    .customer_review_points {
+        width: 900px;
+        margin-top:10px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
+    .why_us_top_level {
+        width: 900px;
+        margin-left:80px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
+    .why_us_bottom_level {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1250px)  {
+    .why_us_points {
+        width: 1020px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1250px)  {
+    .customer_review_points {
+        margin-left: 20px;
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
     .why-us {
         margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (max-width: 1250px) {
+    .why_us_header{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
     .about-images {
         position: relative;
         bottom:40px;

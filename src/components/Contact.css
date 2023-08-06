@@ -25,11 +25,50 @@
     border: 3px solid #DEE2E6;
 }
 
+@media only screen and (max-width: 1000px)  {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right:150px;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .contact-map-form {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top:30px;
+    }
+}
+
+@media only screen and (max-width: 1000px)  {
+    .contact-details {
+        display: flex;
+        margin-top:40px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1158px)  {
+    .contact-details {
+        display: flex;
+        margin-top:40px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        right:0px;
+    }
+}
+
+@media only screen and (min-width: 1158px) and (max-width: 1400px)  {
+    .contact-details {
+        display: flex;
+        margin-top:40px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
     }
 }
