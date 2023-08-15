@@ -132,7 +132,7 @@ const Footer = () => {
   return (
     <div className="mt-[20px]">
       <ToastContainer />
-      <form ref={form} onSubmit={formEmail}>
+      <form ref={form} onSubmit={formEmail} className="footer-connect-with-us">
         <div className="bg-white w-[1200px] mx-auto h-[300px] flex flex-col justify-center fade-in-text">
           <div className="w-10/12 mx-auto footerlettertitle">
             <div className="footerletterdata">

@@ -261,3 +261,52 @@ button.bouncy:hover {
     margin-left:150px;
   }
 }
+
+@media only screen and (min-width: 1211px) and (max-width: 1419px)  {
+  .phone-number {
+    position: relative;
+    right:120px;
+  }
+}
+
+
+@media only screen and (min-width: 1211px) and (max-width: 1419px )  {
+  .top-navbar {
+    position: relative;
+    right:50px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1300px)  {
+  .rest-of-the-world {
+
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1211px)  {
+  .phone-number {
+    position: relative;
+    right:320px;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 1085px)  {
+  .phone-number {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 1211px) and (max-width: 1300px)  {
+  .phone-number {
+    position: relative;
+    right:200px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1211px )  {
+  .top-navbar {
+    position: relative;
+    right:150px;
+  }
+}
