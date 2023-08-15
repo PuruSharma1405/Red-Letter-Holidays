@@ -1,15 +1,16 @@
-import React, { useEffect, useState } from 'react'
-import Carousel from './Carousel'
+import React, { useEffect, useState } from "react";
+import Carousel from "./Carousel";
 import { BeachesData } from "./data";
-import { IndiaPlacesData } from './data';
+import { IndiaPlacesData } from "./data";
 import InternationalPopularPackages from "./InternationalPopularPackages";
-import './animation.css'
-import DomesticPopularPackages from './DomesticPopularPackages';
+import "./animation.css";
+import DomesticPopularPackages from "./DomesticPopularPackages";
 const Home = () => {
-
-    const [isVisible, setIsVisible] = useState(false);
-  const[domesticPopulerPackages,setDomesticPopularPackages]=useState(IndiaPlacesData)
-  const [internationPopularPackages, setInternationalPopularPackages] = useState(BeachesData);
+  const [isVisible, setIsVisible] = useState(false);
+  const [domesticPopulerPackages, setDomesticPopularPackages] =
+    useState(IndiaPlacesData);
+  const [internationPopularPackages, setInternationalPopularPackages] =
+    useState(BeachesData);
 
   const homeRef = React.useRef();
   useEffect(() => {
@@ -87,6 +88,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

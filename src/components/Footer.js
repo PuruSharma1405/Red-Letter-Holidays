@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react'
-import './Footer.css'
-import { Link } from 'react-router-dom';
-import './animation.css'
+import React, { useRef, useState } from "react";
+import "./Footer.css";
+import { Link } from "react-router-dom";
+import "./animation.css";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -10,52 +10,50 @@ import {
   AiOutlineWhatsApp,
   AiFillFacebook,
 } from "react-icons/ai";
-import { ImWhatsapp } from 'react-icons/im';
+import { ImWhatsapp } from "react-icons/im";
 const Footer = () => {
-
-  const[email,setEmail]=useState()
+  const [email, setEmail] = useState();
 
   const form = useRef();
 
-   function formEmail(e) {
-     e.preventDefault();
-     emailjs
-       .sendForm(
-         "service_dd9n1ev",
-         "template_dzt1rgi",
-         form.current,
-         "8kr9SYjqfuyy-87rc"
-       )
-       .then(
-         (result) => {
-           toast.info("Message Sent", {
-             position: "top-right",
-             autoClose: 5000,
-             hideProgressBar: false,
-             closeOnClick: true,
-             pauseOnHover: true,
-             draggable: true,
-             progress: undefined,
-             theme: "colored",
-           });
-           console.log(result.text);
-         },
-         (error) => {
-           toast.error("Something went wrong while sending mail", {
-             position: "top-right",
-             autoClose: 5000,
-             hideProgressBar: false,
-             closeOnClick: true,
-             pauseOnHover: true,
-             draggable: true,
-             progress: undefined,
-             theme: "colored",
-           });
-           console.log(error.text);
-         }
-       );
-   }
-
+  function formEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_dd9n1ev",
+        "template_dzt1rgi",
+        form.current,
+        "8kr9SYjqfuyy-87rc"
+      )
+      .then(
+        (result) => {
+          toast.info("Message Sent", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+          console.log(result.text);
+        },
+        (error) => {
+          toast.error("Something went wrong while sending mail", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+          console.log(error.text);
+        }
+      );
+  }
 
   const scrollDomestic = () => {
     setTimeout(() => {
@@ -89,47 +87,47 @@ const Footer = () => {
   const scrollToTopAbout = () => {
     setTimeout(() => {
       const section = document.querySelector("#about");
-      if(section){
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }, 500);
   };
 
-  const scrollToTopContact=()=>{
+  const scrollToTopContact = () => {
     setTimeout(() => {
       const section = document.querySelector("#contact");
-      if(section){
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }, 500);
-  }
+  };
 
-  const scrollToTopPrivacyPolicy=()=>{
+  const scrollToTopPrivacyPolicy = () => {
     setTimeout(() => {
       const section = document.querySelector("#privacy-policy");
-      if(section){
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }, 500);
-  }
+  };
 
-  const scrollToTopSupport=()=>{
+  const scrollToTopSupport = () => {
     setTimeout(() => {
       const section = document.querySelector("#contact");
-      if(section){
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }, 500);
-  }
+  };
 
-  const scrollToVisa=()=>{
+  const scrollToVisa = () => {
     setTimeout(() => {
       const section = document.querySelector("#visa");
-      if(section){
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }, 500);
-  }
+  };
 
   return (
     <div className="mt-[20px]">
@@ -159,12 +157,9 @@ const Footer = () => {
         </div>
       </form>
       <div className="w-[1200px] mx-auto bg-[#0F172B] footer relative bottom-[30px] ">
-        <div className="flex p-[20px] justify-evenly min-h-[400px] ">
+        <div className="flex p-[20px] justify-evenly min-h-[400px] footer-container">
           <div>
-            <Link
-              to="/"
-              className="text-[#FEA116]"
-            >
+            <Link to="/" className="text-[#FEA116]">
               Red Letter Holidays
             </Link>
             <div className="bg-[white] w-[75px] h-[1px] mx-[10px] mt-[10px]"></div>
@@ -216,16 +211,32 @@ const Footer = () => {
             <h6 className="text-[#FEA116]">Company</h6>
             <div className="bg-[white] w-[70px] h-[1px] mx-[2px] mt-[10px]"></div>
             <div className="mt-[20px]">
-              <Link to="/about" className="text-white btn-link " onClick={scrollToTopAbout}>
+              <Link
+                to="/about"
+                className="text-white btn-link "
+                onClick={scrollToTopAbout}
+              >
                 About Us
               </Link>
-              <Link to="/contact" className="text-white btn-link " onClick={scrollToTopContact}>
+              <Link
+                to="/contact"
+                className="text-white btn-link "
+                onClick={scrollToTopContact}
+              >
                 Contact Us
               </Link>
-              <Link to="/privacy-policy" className="text-white btn-link" onClick={scrollToTopPrivacyPolicy}>
+              <Link
+                to="/privacy-policy"
+                className="text-white btn-link"
+                onClick={scrollToTopPrivacyPolicy}
+              >
                 Privacy Policy
               </Link>
-              <Link to="/contact" className="text-white btn-link" onClick={scrollToTopSupport}>
+              <Link
+                to="/contact"
+                className="text-white btn-link"
+                onClick={scrollToTopSupport}
+              >
                 Support
               </Link>
             </div>
@@ -262,7 +273,11 @@ const Footer = () => {
               >
                 International Packages
               </Link>
-              <Link to="/visa" className="text-white btn-link" onClick={scrollToVisa}>
+              <Link
+                to="/visa"
+                className="text-white btn-link"
+                onClick={scrollToVisa}
+              >
                 Visa
               </Link>
             </div>
@@ -279,6 +294,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

@@ -12,3 +12,17 @@
     bottom:0rem;
     z-index:2;
 }  
+
+@media only screen and (min-width: 800px) and (max-width: 1200px)  {
+   .popularPackageHeader {
+       position: relative;
+       right:100px;
+   }
+ }
+
+ @media only screen and (min-width: 400px) and (max-width: 800px)  {
+   .popularPackageHeader {
+       position: relative;
+       right:200px;
+   }
+ }

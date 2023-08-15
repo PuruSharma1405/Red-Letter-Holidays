@@ -54,3 +54,25 @@
     border:none;
     outline:none;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 700px)  {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+@media only screen and (min-width: 980px) and (max-width: 1120px)  {
+    .footer-container {
+        width:90%;
+    }
+  }
+
+  @media only screen and (min-width: 700px) and (max-width: 980px)  {
+    .footer-container {
+        width: 80%;
+    }
+  }
+
+
+

@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import Hotel from './Hotel';
-import './Card.css'
-import './animation.css'
-import { useNavigate, useParams } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import Hotel from "./Hotel";
+import "./Card.css";
+import "./animation.css";
+import { useNavigate, useParams } from "react-router-dom";
 const Card = ({
   singlePlace,
   notInterestedHotel,
   hotels,
   getHotelsBack,
   fetchingItienary,
-  specifichotel
+  specifichotel,
 }) => {
   const navigate = useNavigate();
   const id = useParams();
@@ -33,18 +33,27 @@ const Card = ({
   }, [hotels]);
 
   const itienaryHandler = () => {
-    console.log('singlePlace',singlePlace);
+    console.log("singlePlace", singlePlace);
     navigate(`itineary`);
     fetchingItienary(singlePlace);
-    localStorage.setItem('itinearyName',singlePlace?.name)
-    localStorage.setItem('itinearyInfo',singlePlace?.info)
-    localStorage.setItem('itinearyImage',singlePlace?.image)
-    localStorage.setItem('itinearyIdealDuration',singlePlace?.idealDuration)
-    localStorage.setItem('itinearyBestTime',singlePlace?.BestTime)
-    localStorage.setItem('itinearyPrice',singlePlace?.price)
-    localStorage.setItem('itinearyInclusions',JSON.stringify(singlePlace?.Inclusions))
-    localStorage.setItem('itinearyExlusions',JSON.stringify(singlePlace?.Exclusions))
-    localStorage.setItem("itinearyPlan",JSON.stringify(singlePlace?.itinearys));
+    localStorage.setItem("itinearyName", singlePlace?.name);
+    localStorage.setItem("itinearyInfo", singlePlace?.info);
+    localStorage.setItem("itinearyImage", singlePlace?.image);
+    localStorage.setItem("itinearyIdealDuration", singlePlace?.idealDuration);
+    localStorage.setItem("itinearyBestTime", singlePlace?.BestTime);
+    localStorage.setItem("itinearyPrice", singlePlace?.price);
+    localStorage.setItem(
+      "itinearyInclusions",
+      JSON.stringify(singlePlace?.Inclusions)
+    );
+    localStorage.setItem(
+      "itinearyExlusions",
+      JSON.stringify(singlePlace?.Exclusions)
+    );
+    localStorage.setItem(
+      "itinearyPlan",
+      JSON.stringify(singlePlace?.itinearys)
+    );
   };
 
   return (
@@ -78,62 +87,63 @@ const Card = ({
           </div>
         </div>
       </div>
-      <div className="w-[1300px] mx-auto">
-        <h1 className="text-center text-[#FEA216]">
-          Most Popular {singlePlace.name} Package (
-          <span>{singlePlace.duration}</span>)
-        </h1>
-        <div className="flex justify-center mt-[10px]">
-          <button
-            className="ml-[10px] bouncy bouncyBtn"
-            onClick={itienaryHandler}
+      <div className="w-[1300px] mx-auto ">
+        <div className="popularPackageHeader">
+          <h1 className="text-center text-[#FEA216]">
+            Most Popular {singlePlace.name} Package (
+            <span>{singlePlace.duration}</span>)
+          </h1>
+          <div className="flex justify-center mt-[10px]">
+            <button
+              className="ml-[10px] bouncy bouncyBtn"
+              onClick={itienaryHandler}
+              style={{
+                border: "1px solid black",
+                width: "40%",
+                padding: "15px 0",
+              }}
+            >
+              Watch {singlePlace.name} Itineary
+            </button>
+          </div>
+          <div
             style={{
-              border: "1px solid black",
-              width: "40%",
-              padding: "15px 0",
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "15px",
             }}
           >
-            Watch {singlePlace.name} Itineary
-          </button>
+            <input
+              type="text"
+              placeholder="Search Hotel"
+              style={{
+                border: "1px solid black",
+                width: "500px",
+                padding: "10px",
+              }}
+              onChange={(e) => setSearchedValues(e.target.value)}
+            />
+            <button
+              className="ml-[10px]"
+              onClick={clickHandler}
+              style={{ border: "1px solid black", padding: "12px 10px" }}
+            >
+              Search
+            </button>
+          </div>
+          {hotels?.length === 1 ? (
+            <button onClick={getHotelsBack} className="w-full">
+              <div className="w-full flex justify-center">
+                <span className="text-3xl bg-[#434344]  text-[white] relative bottom-2 border-4 border-[#434344] font-bold uppercase mt-5">
+                  Get All Hotels Back
+                </span>
+              </div>
+            </button>
+          ) : (
+            ""
+          )}
         </div>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            marginTop: "15px",
-          }}
-        >
-          <input
-            type="text"
-            placeholder="Search Hotel"
-            style={{
-              border: "1px solid black",
-              width: "500px",
-              padding: "10px",
-            }}
-            onChange={(e) => setSearchedValues(e.target.value)}
-          />
-          <button
-            className="ml-[10px]"
-            onClick={clickHandler}
-            style={{ border: "1px solid black", padding: "12px 10px" }}
-          >
-            Search
-          </button>
-        </div>
-        {hotels?.length === 1 ? (
-          <button onClick={getHotelsBack} className="w-full">
-            <div className="w-full flex justify-center">
-              <span className="text-3xl bg-[#434344]  text-[white] relative bottom-2 border-4 border-[#434344] font-bold uppercase mt-5">
-                Get All Hotels Back
-              </span>
-            </div>
-          </button>
-        ) : (
-          ""
-        )}
-
         <div className="flex w-[1200px] mx-auto mt-[20px]  gap-10 flex-wrap cursor-pointer animated slideInUp">
           {allHotels?.map((singleHotel, index) => {
             return (
@@ -153,4 +163,4 @@ const Card = ({
   );
 };
 
-export default Card
+export default Card;

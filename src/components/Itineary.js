@@ -4,15 +4,19 @@ import { useNavigate } from "react-router-dom";
 
 const Itineary = ({ itienary }) => {
   const navigate = useNavigate();
-  const itinearyName=localStorage.getItem("itinearyName");
-  const itinearyInfo=localStorage.getItem("itinearyInfo");
-  const itinearyImage=localStorage.getItem("itinearyImage");
-  const itinearyDuration=localStorage.getItem("itinearyIdealDuration");
-  const itinearyBestTime=localStorage.getItem("itinearyBestTime");
-  const itinearyPrice=localStorage.getItem("itinearyPrice");
-  const itinearyInclusions=JSON.parse(localStorage.getItem("itinearyInclusions"));
-  const itinearyExclusions=JSON.parse(localStorage.getItem("itinearyExlusions"));
-  const itinearyPlan=JSON.parse(localStorage.getItem("itinearyPlan"));
+  const itinearyName = localStorage.getItem("itinearyName");
+  const itinearyInfo = localStorage.getItem("itinearyInfo");
+  const itinearyImage = localStorage.getItem("itinearyImage");
+  const itinearyDuration = localStorage.getItem("itinearyIdealDuration");
+  const itinearyBestTime = localStorage.getItem("itinearyBestTime");
+  const itinearyPrice = localStorage.getItem("itinearyPrice");
+  const itinearyInclusions = JSON.parse(
+    localStorage.getItem("itinearyInclusions")
+  );
+  const itinearyExclusions = JSON.parse(
+    localStorage.getItem("itinearyExlusions")
+  );
+  const itinearyPlan = JSON.parse(localStorage.getItem("itinearyPlan"));
 
   return (
     <div className="w-full rounded-lg overflow-hidden shadow-md">
@@ -82,49 +86,53 @@ const Itineary = ({ itienary }) => {
 
         <h1 className="mt-[20px] text-[#FEA216]">- Exclusions</h1>
         <div className="mt-[20px]">
-          {itienary?.Exclusions?itienary?.Exclusions.map((currExclusion, index) => {
-            return (
-              <div className="text-3xl mt-3 flex" key={index}>
-                <ImCheckboxChecked />
-                <span className="ml-[10px]">{currExclusion}</span>
-              </div>
-            );
-          }):itinearyExclusions?.map((currExclusion, index) => {
-            return (
-              <div className="text-3xl mt-3 flex" key={index}>
-                <ImCheckboxChecked />
-                <span className="ml-[10px]">{currExclusion}</span>
-              </div>
-            );
-          })}
+          {itienary?.Exclusions
+            ? itienary?.Exclusions.map((currExclusion, index) => {
+                return (
+                  <div className="text-3xl mt-3 flex" key={index}>
+                    <ImCheckboxChecked />
+                    <span className="ml-[10px]">{currExclusion}</span>
+                  </div>
+                );
+              })
+            : itinearyExclusions?.map((currExclusion, index) => {
+                return (
+                  <div className="text-3xl mt-3 flex" key={index}>
+                    <ImCheckboxChecked />
+                    <span className="ml-[10px]">{currExclusion}</span>
+                  </div>
+                );
+              })}
         </div>
 
         {/* Itinerary Plan */}
-        <div>
+        <div className="text-justify itinerary-plan">
           <h1 className="mt-[20px] text-[#FEA216]">Itinerary Plan</h1>
-          {itienary?.itinearys? itienary?.itinearys?.map((currItineary, index) => {
-            return (
-              <div className="text-3xl mt-3" key={index}>
-                <span className="text-[#FEA216]">{currItineary.day}</span>
-                <span className="text-[#FEA216]">
-                  {currItineary.itinerary}
-                </span>{" "}
-                <br />
-                <div className="mt-[20px]">{currItineary.description}</div>
-              </div>
-            );
-          }):itinearyPlan?.map((currItineary, index) => {
-            return (
-              <div className="text-3xl mt-3" key={index}>
-                <span className="text-[#FEA216]">{currItineary.day}</span>
-                <span className="text-[#FEA216]">
-                  {currItineary.itinerary}
-                </span>{" "}
-                <br />
-                <div className="mt-[20px]">{currItineary.description}</div>
-              </div>
-            );
-          })}
+          {itienary?.itinearys
+            ? itienary?.itinearys?.map((currItineary, index) => {
+                return (
+                  <div className="text-3xl mt-3" key={index}>
+                    <span className="text-[#FEA216]">{currItineary.day}</span>
+                    <span className="text-[#FEA216]">
+                      {currItineary.itinerary}
+                    </span>{" "}
+                    <br />
+                    <div className="mt-[20px]">{currItineary.description}</div>
+                  </div>
+                );
+              })
+            : itinearyPlan?.map((currItineary, index) => {
+                return (
+                  <div className="text-3xl mt-3" key={index}>
+                    <span className="text-[#FEA216]">{currItineary.day}</span>
+                    <span className="text-[#FEA216]">
+                      {currItineary.itinerary}
+                    </span>{" "}
+                    <br />
+                    <div className="mt-[20px]">{currItineary.description}</div>
+                  </div>
+                );
+              })}
         </div>
 
         {/* Book Now Button */}

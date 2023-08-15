@@ -16,32 +16,31 @@ const Navbar = ({ fetchingPlace }) => {
   const [asiaPlaces, setAsiaPlaces] = useState(AsiaPlacesData);
   const [beachesData, setBeachesData] = useState(BeachesData);
   const [restOfTheWorld, setRestOfTheWorld] = useState(RestOfTheWorld);
-   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
   const navigate = useNavigate();
 
   const scrollDomestic = () => {
-    setTimeout(()=>{
+    setTimeout(() => {
       const section = document.querySelector("#domestic");
-      if(section){
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
-    },500)
+    }, 500);
   };
 
-    const scrollInternational = () => {
-      setTimeout(() => {
-        const section = document.querySelector("#international");
-        if(section){
+  const scrollInternational = () => {
+    setTimeout(() => {
+      const section = document.querySelector("#international");
+      if (section) {
         section.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }, 500);
+      }
+    }, 500);
+  };
 
-    };
-
-    const toggleMenu = () => {
-      setMenuOpen(!isMenuOpen);
-    };
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   const clickHandler = (place) => {
     fetchingPlace(`package/${place}`);
     navigate(`/package/${place}`);
@@ -74,10 +73,10 @@ const Navbar = ({ fetchingPlace }) => {
               INDIA
             </Link>
             <div className="flex flex-col dropdown-contentIndia">
-              {indiaPlaces.map((singlePlace,index) => {
+              {indiaPlaces.map((singlePlace, index) => {
                 return (
                   <div
-                  key={singlePlace.id}
+                    key={singlePlace.id}
                     className="link text-white"
                     onClick={() => clickHandler(singlePlace.place)}
                   >
@@ -97,10 +96,10 @@ const Navbar = ({ fetchingPlace }) => {
             <div className="dropdown-contentAsia">
               <div className="flex">
                 <div className="border-r-2 border-white">
-                  {asiaPlaces.map((singlePlace,index) => {
+                  {asiaPlaces.map((singlePlace, index) => {
                     return (
                       <div
-                      key={singlePlace.id}
+                        key={singlePlace.id}
                         className="link text-white"
                         onClick={() => clickHandler(singlePlace.place)}
                       >
@@ -110,10 +109,10 @@ const Navbar = ({ fetchingPlace }) => {
                   })}
                 </div>
                 <div>
-                  {MoreAsiaPlacesData.map((singlePlace,index) => {
+                  {MoreAsiaPlacesData.map((singlePlace, index) => {
                     return (
                       <div
-                      key={singlePlace.id}
+                        key={singlePlace.id}
                         className="link text-white"
                         onClick={() => clickHandler(singlePlace.place)}
                       >
@@ -133,10 +132,10 @@ const Navbar = ({ fetchingPlace }) => {
               BEACHES
             </Link>
             <div className="flex flex-col dropdown-contentBeaches">
-              {beachesData.map((singlePlace,index) => {
+              {beachesData.map((singlePlace, index) => {
                 return (
                   <div
-                  key={singlePlace.id}
+                    key={singlePlace.id}
                     className="link text-white"
                     onClick={() => clickHandler(singlePlace.place)}
                   >
@@ -158,7 +157,7 @@ const Navbar = ({ fetchingPlace }) => {
               {restOfTheWorld.map((singlePlace) => {
                 return (
                   <div
-                  key={singlePlace.id}
+                    key={singlePlace.id}
                     className="link text-white"
                     onClick={() => clickHandler(singlePlace.place)}
                   >
