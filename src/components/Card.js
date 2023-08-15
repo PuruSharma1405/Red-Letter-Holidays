@@ -57,7 +57,7 @@ const Card = ({
   };
 
   return (
-    <div className="fade-in-text">
+    <div className="fade-in-text" id="package">
       <div className="relative">
         <img
           src={singlePlace.image}

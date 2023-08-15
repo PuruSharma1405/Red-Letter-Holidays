@@ -159,7 +159,7 @@ const Footer = () => {
       <div className="w-[1200px] mx-auto bg-[#0F172B] footer relative bottom-[30px] ">
         <div className="flex p-[20px] justify-evenly min-h-[400px] footer-container">
           <div>
-            <Link to="/" className="text-[#FEA116]">
+            <Link to="/" className="text-[#FEA116] no-underline">
               Red Letter Holidays
             </Link>
             <div className="bg-[white] w-[75px] h-[1px] mx-[10px] mt-[10px]"></div>
@@ -169,7 +169,9 @@ const Footer = () => {
               providing one stop solution for your travel needs. Be it travel
               packages or Visas, We have it all under one roof. What more, we
               provide you with easy EMI's on your travel!..
-              <Link to="/about">More About us</Link>
+              <Link to="/about" className="no-underline">
+                More About us
+              </Link>
             </p>
           </div>
           <div>
@@ -213,28 +215,28 @@ const Footer = () => {
             <div className="mt-[20px]">
               <Link
                 to="/about"
-                className="text-white btn-link "
+                className="text-white btn-link no-underline"
                 onClick={scrollToTopAbout}
               >
                 About Us
               </Link>
               <Link
                 to="/contact"
-                className="text-white btn-link "
+                className="text-white btn-link no-underline"
                 onClick={scrollToTopContact}
               >
                 Contact Us
               </Link>
               <Link
                 to="/privacy-policy"
-                className="text-white btn-link"
+                className="text-white btn-link no-underline"
                 onClick={scrollToTopPrivacyPolicy}
               >
                 Privacy Policy
               </Link>
               <Link
                 to="/contact"
-                className="text-white btn-link"
+                className="text-white btn-link no-underline"
                 onClick={scrollToTopSupport}
               >
                 Support
@@ -247,7 +249,7 @@ const Footer = () => {
             <div className="mt-[20px]">
               <Link
                 to="/"
-                className="text-white btn-link"
+                className="text-white btn-link no-underline"
                 onClick={scrollDomestic}
               >
                 Domestic Ticketing
@@ -261,21 +263,21 @@ const Footer = () => {
               </Link>
               <Link
                 to="/"
-                className="text-white btn-link"
+                className="text-white btn-link no-underline"
                 onClick={scrollInternational}
               >
                 International Ticketing
               </Link>
               <Link
                 to="/"
-                className="text-white btn-link"
+                className="text-white btn-link no-underline"
                 onClick={scrollInternational}
               >
                 International Packages
               </Link>
               <Link
                 to="/visa"
-                className="text-white btn-link"
+                className="text-white btn-link no-underline"
                 onClick={scrollToVisa}
               >
                 Visa

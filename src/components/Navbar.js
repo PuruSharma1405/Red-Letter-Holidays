@@ -31,6 +31,7 @@ const Navbar = ({ fetchingPlace }) => {
   const scrollInternational = () => {
     setTimeout(() => {
       const section = document.querySelector("#international");
+      console.log("section", section);
       if (section) {
         section.scrollIntoView({ behavior: "smooth", block: "start" });
       }

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import './PopularPackages.css'
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import "./PopularPackages.css";
+import { useNavigate } from "react-router-dom";
 const InternationalPopularPackages = ({ singlePackage }) => {
   const [isVisible, setIsVisible] = useState(false);
   const homeRef = React.useRef();
@@ -18,6 +18,11 @@ const InternationalPopularPackages = ({ singlePackage }) => {
   const clickHandler = (data) => {
     navigate(`package/${data}`);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div
       className={`fade-in-section ${

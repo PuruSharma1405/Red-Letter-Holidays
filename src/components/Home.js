@@ -24,7 +24,26 @@ const Home = () => {
     observer.observe(homeRef.current);
   }, []);
 
-  console.log("running");
+  const scrollDomesticPackage = () => {
+    setTimeout(() => {
+      const section = document.querySelector("#package");
+      console.log("section", section);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
+  };
+
+  const scrollInternationalPackage = () => {
+    console.log("clicked");
+    setTimeout(() => {
+      const section = document.querySelector("#package");
+      console.log("section", section);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 500);
+  };
 
   return (
     <div>
@@ -57,7 +76,10 @@ const Home = () => {
           </h1>
           <h2 className="text-[#b3615b] uppercase font-bold">International</h2>
         </div>
-        <div className="flex flex-wrap justify-center">
+        <div
+          className="flex flex-wrap justify-center"
+          onClick={scrollInternationalPackage}
+        >
           {internationPopularPackages.map((singlePackage) => {
             return (
               <div key={singlePackage.id}>
@@ -75,7 +97,10 @@ const Home = () => {
               Domestic
             </h2>
           </div>
-          <div className="flex flex-wrap justify-center">
+          <div
+            className="flex flex-wrap justify-center"
+            onClick={scrollDomesticPackage}
+          >
             {domesticPopulerPackages.map((singlePackage) => {
               return (
                 <div key={singlePackage.id}>
