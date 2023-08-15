@@ -208,7 +208,7 @@ const Navbar = ({ fetchingPlace }) => {
             </div>
             <Link
               to="/contact"
-              className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+              className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
             >
               Contact
             </Link>
@@ -216,7 +216,7 @@ const Navbar = ({ fetchingPlace }) => {
         </div>
         <Link className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 flex text-[18px] phone-number no-underline">
           <MdOutlinePhoneForwarded className="relative mt-[10px] mr-[10px] text-[px]" />
-          <span className="mb-[3px] relative">+91 84471901712</span>
+          <span className="mb-[3px] relative">+91 8447190171</span>
         </Link>
       </nav>
     </div>
