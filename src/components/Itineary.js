@@ -70,7 +70,9 @@ const Itineary = ({ itienary }) => {
                 return (
                   <div className="text-3xl mt-3 flex" key={index}>
                     <ImCheckboxChecked />
-                    <span className="ml-[10px]">{currInclusion}</span>
+                    <span className="ml-[10px] text-[#666697]">
+                      {currInclusion}
+                    </span>
                   </div>
                 );
               })
@@ -78,7 +80,9 @@ const Itineary = ({ itienary }) => {
                 return (
                   <div className="text-3xl mt-3 flex" key={index}>
                     <ImCheckboxChecked />
-                    <span className="ml-[10px]">{currInclusion}</span>
+                    <span className="ml-[10px] text-[#666697]">
+                      {currInclusion}
+                    </span>
                   </div>
                 );
               })}
@@ -91,7 +95,9 @@ const Itineary = ({ itienary }) => {
                 return (
                   <div className="text-3xl mt-3 flex" key={index}>
                     <ImCheckboxChecked />
-                    <span className="ml-[10px]">{currExclusion}</span>
+                    <span className="ml-[10px] text-[#666697]">
+                      {currExclusion}
+                    </span>
                   </div>
                 );
               })
@@ -99,7 +105,9 @@ const Itineary = ({ itienary }) => {
                 return (
                   <div className="text-3xl mt-3 flex" key={index}>
                     <ImCheckboxChecked />
-                    <span className="ml-[10px]">{currExclusion}</span>
+                    <span className="ml-[10px] text-[#666697]">
+                      {currExclusion}
+                    </span>
                   </div>
                 );
               })}
@@ -117,7 +125,9 @@ const Itineary = ({ itienary }) => {
                       {currItineary.itinerary}
                     </span>{" "}
                     <br />
-                    <div className="mt-[20px]">{currItineary.description}</div>
+                    <div className="mt-[20px] text-[#666697]">
+                      {currItineary.description}
+                    </div>
                   </div>
                 );
               })
@@ -129,7 +139,9 @@ const Itineary = ({ itienary }) => {
                       {currItineary.itinerary}
                     </span>{" "}
                     <br />
-                    <div className="mt-[20px]">{currItineary.description}</div>
+                    <div className="mt-[20px] text-[#666697]">
+                      {currItineary.description}
+                    </div>
                   </div>
                 );
               })}

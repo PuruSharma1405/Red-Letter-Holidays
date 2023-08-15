@@ -84,7 +84,7 @@ const Hotel = ({ singleHotel, index, notInterested, specifichotel }) => {
           })}
         </ul>
         <p className="text-center text-3xl text-[#2997FF]">
-          {singleHotel.price}/day
+          &#8377; {singleHotel.price}/day
         </p>
       </div>
     </div>

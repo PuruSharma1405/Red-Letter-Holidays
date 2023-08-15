@@ -82,7 +82,7 @@ const Card = ({
             </div>
             <div className="flex flex-col justify-center items-center ml-[30px] font-bold uppercase">
               <p>Prices Starts At</p>
-              <p className="text-3xl">{singlePlace.price}</p>
+              <p className="text-3xl">&#8377; {singlePlace.price}</p>
             </div>
           </div>
         </div>
