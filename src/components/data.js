@@ -580,7 +580,11 @@ export const data = {
         BestTime: "Apr-Jul",
         idealDuration: "5 nights",
         duration: "3N/4D",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Accommodation in Deluxe Hotel/Resorts/Houseboat",
+          "Usage of all facilities like Gym, Common room etc",
+          "Breakfast at the Resorts/Hotels",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -588,45 +592,45 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "Kochi to Munnar",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Our representative will receive you on arrival at Kochi Railway station/ Airport and transfer to the resort in Munnar. You will proceed to Echo Point. Enjoy tea plantation and serene silence of the hill station. After that, you will visit the Mattupetty Dam. Overnight at Munnar.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "Munnar",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast proceed to Anamudi Peak. Enjoy the view from 'The Elephant Headed Hill', it is the highest peak in the Sahyadris. After that, you will visit the Cheeyappara Waterfalls. Overnight at Munnar.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "Munnar to Thekkady",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After Breakfast at the resort proceed to Thekkady. Check-In the resort. You will visit the Periyar Lake. Enjoy Boat Ride and try bamboo rafting with trekking. Next, you will proceed the Periyar Wildlife Sanctuary Tour.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "Thekkady to Kumarakom",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "After Breakfast, you will proceed to Kumarakom. Transfer to the resort and Check-In. You will proceed to Kumarakom Beach. Enjoy water skiing, wind surfing, parasailing, boating, swimming, and water polo. Next, you will visit the Aruvikkuzhi Waterfall. Overnight at Kumarakom.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "Kumarakom to Alleppey",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
+              "After Breakfast proceed to Alleppey. Check into the hotel. You will visit the Mannarasala Temple. After that, you will enjoy the beauty of Alappuzha Beach. In the evening, you will visit the Marari Beach. Enjoy the sunset view, fishing, swimming, sea breeze, coconut plants, and local food. Overnight at Alleppey.",
           },
           {
             day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
+            itinerary: "Alleppey to Kovalam",
             description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
+              "After Breakfast, you will proceed to Kovalam. Transfer to the resort and Check-In. You will visit the Padmanabhaswamy Temple. In the evening, you will visit the Kovalam Beach. Overnight at Kovalam.",
           },
           {
             day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
+            itinerary: "Kovalam to Trivandrum",
             description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After Breakfast at the Resort proceed to Trivandrum Railway station/ Airport before scheduled time of your flight or train.",
           },
         ],
         hotels: [
@@ -708,7 +712,7 @@ export const data = {
         duration: "3N/4D",
         BestTime: "Apr-Jul",
         idealDuration: "5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: ["All sightseeing as per itinerary", "Daily Breakfast"],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -716,45 +720,39 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "Guwahati",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Arrival at Borjhar Airport. Upon arrival, meet and greet by the tour manager and then transfer to hotel. Check into the hotel. You will visit the Shrine Of Eternity At Nilachal Hill. Explore a famous site with an ancient pilgrimage shrine, 'Kamakhya Temple'. Overnight stay at Guwahati.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "Guwahati",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast, you will proceed to Adventure Day Out At Amchang Wildlife At Morinka. Enjoy the stimulating activities like activities like trekking, zip lining, jumaring, rock climbing and rappelling. Overnight stay at Guwahati.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "Guwahati - Shillong",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After breakfast, you will proceed to Shillong. Transfer to the hotel and Check-In. You will visit the Mawsmai Cave. Enjoy the adventure sport of spelunking, or caving. Overnight stay at Shillong.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "Shillong",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "After breakfast, you will proceed to Trekking tour. Go for trekking, from the trails of Living Root Bridge and Sohpet-being to Kyllang Rock. Next, you will visit the Botanical Garden. See the amazing collection of rare orchids and plantations. Overnight stay at Shillong.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "Shillong - Cherrapunji",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
+              "After breakfast, you will proceed to Cherrapunji. Check into the resort. You will visit the Eco Park and Nohkalikai Waterfalls. Overnight at Cherrapunji.",
           },
           {
             day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
+            itinerary: "Return",
             description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
-          },
-          {
-            day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After breakfast check out from the resort & transfer to Guwahati Airport / Railway Station for your onward journey.",
           },
         ],
         hotels: [
@@ -838,7 +836,10 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Oct-Mar",
         idealDuration: "7 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Welcome drink on Arrival",
+          "AC Car for all the transfers & sightseeing",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -846,45 +847,33 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "Delhi Arrival",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "On arrival at Delhi, our representative will meet and assist you to the Hotel. Check into the Hotel. You will proceed to India Gate, Red Fort And Lotus Temple. Visit the famous Handicraft shops where you can buy some of the gifts. Overnight at Delhi.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "Delhi",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast at the Hotel, enjoy a city tour of Delhi by visiting Lodhi Garden, Humayun Tomb and Akshardham Temple. Overnight stay at Delhi.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "Delhi to Jaipur",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After breakfast at the Hotel check out and proceed to Jaipur by Car. On arrival at Jaipur you will be assisted to the hotel, check into the Hotel. After that, you will visit the Jal Mahal. Overnight stay at the hotel in Jaipur.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "Jaipur",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "After breakfast, you will visit the Amber Fort, Hawa Mahal and Jantar Mantar. Overnight at Jaipur.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "Jaipur Departure",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
-          },
-          {
-            day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
-            description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
-          },
-          {
-            day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After breakfast in the Hotel you will be transferred to the Airport / Railway station for your onward journey.",
           },
         ],
         hotels: [
@@ -967,7 +956,7 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Oct-May",
         idealDuration: "6 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: ["Airport Pick up and Drop", "Daily Breakfast"],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -975,45 +964,33 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "Arrive Port Blair",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Arrival at Port Blair in the morning by flight/ship transfers to hotel. Check into the Hotel and rest for some time. You will proceed to Cellular Jail Tour. Explore the National Memorial and see several notable Indian activists during the struggle for India's independence. After that, you will visit the Marina Park & Aquarium and see the marine life with several varieties of sea fishes and turtles. Overnight stay at Port Blair.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "Port Blair – Havelock",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast, early morning departure by Govt ferry to Havelock Island (57 km by sea from Port Blair) and transfers to the resort. Check into the resort and rest for some time. After breakfast, you will proceed to Kaala Pathar Beach. Explore the Kaala Pathar village and see the floating corals in the pristine blue beach water. Overnight stay at Havelock.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "Havelock",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After breakfast proceed for the sightseeing of Elephant Beach. Enjoy kayaking, jet-skiing, snorkeling and glass bottom boat rides near the elephant beach. In the evening, you will visit the Sunset At Radhanagar Beach Tour.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "Havelock – Port Blair",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "After breakfast, return from Havelock to Port Blair by Govt ferry in the afternoon transfer to hotel. After that, you will visit the Ross Island. Enjoy the pristine sand, clear blue water and delicious seafood at Ross Island. Overnight stay at Port Blair.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "Depart Port Blair",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
-          },
-          {
-            day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
-            description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
-          },
-          {
-            day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "Transfer to Airport/Harbour for return flight/voyage.",
           },
         ],
         hotels: [
@@ -1096,7 +1073,7 @@ export const data = {
         duration: "3N/4D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: ["Dubai City Tour", "Desert Camel Safari"],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1104,45 +1081,27 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "DUBAI",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Upon arrival at the Dubai International Airport, you will be transferred to the Hotel and check into the Hotel. Rest of the day at leisure. Overnight at the Hotel.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "DUBAI",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast, morning proceeds for a Dubai City Tour, which includes Burj Al Arab, Burj Khalifa, Dubai Creek, Jumeirah Beach, Jumeirah Mosque, Atlantis the Palm, Dubai Mall, Madinat Jumeirah and Sheik Zayed Road. Overnight at the Hotel.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "DUBAI",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After breakfast, morning at leisure. Evening transfer for tour of Desert Safari with barbeque dinner and belly dancing. Overnight at the Hotel.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "DUBAI - Departure",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
-          },
-          {
-            day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
-            description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
-          },
-          {
-            day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
-            description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
-          },
-          {
-            day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After breakfast, check out of the hotel and the day is free until your departure transfer to the airport for your flight back home or next destinations.",
           },
         ],
         hotels: [
@@ -1224,7 +1183,11 @@ export const data = {
         duration: "8N/9D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Meet and Greet",
+          "Daily Breakfast",
+          "Sightseeing as per the itinerary",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1345,7 +1308,11 @@ export const data = {
         duration: "4N/5D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Half day City Tour",
+          "Night Safari Tour",
+          "Sentosa Island Tour",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1353,52 +1320,39 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "ARRIVAL CHECK-IN/ NIGHT SAFARI",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Arrival transfer from Airport to Hotel in Singapore. Welcome to Singapore. On arrival in Singapore, you will be welcomed by our local Antilog Vacation representative and transferred to your hotel. • Check-in - 03-00PM • Check Out - 11-00AM Enjoy the Night Safari tour. The Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. The animals of the Night Safari, ranging from Indian rhinoceros and Pangolin to Tarsiers and Asian elephants, are made visible by lighting that resembles moonlight. Cultural performances are a regular feature at the safari, and include tribal dances, blowpipe demonstrations and fire eating displays. Creatures of the Night Show is a performance presented by the animals in the Night Safari. • Pick up point - Hotel • Drop point - Hotel • Pick up time - 06-00 PM • Duration - 3-4 Hours",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "BREAKFAST/SINGAPORE HALF DAY CITY TOUR",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "Discover Singapore on a city tour. Experience the captivating clash between the historic and cosmopolitan faces of the city-state of Singapore. Find yourself at a point where East meets West and past meets present, creating a city environment like no other on earth. • Pick up point - Hotel • Drop point - Hotel • Pick up time - 10-00AM • Duration -3-4 Hours.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "BREAKFAST/ SENTOSA ISLAND TOUR",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "Embark on a classic Sentosa Island Extreme tour. Enjoy your day at Sentosa Island. Enter and explore the marine realm of S.E.A. AquariumTM, home to more than 100,000 marine animals of over 800 species, across into 49 different habitats, each one as fascinating as the next. It's an experience you won’t forget. Surrounded with lush tropical greenery, Butterfly Park & Insect Kingdom showcases the stunning beauties of mother nature. With a great variety of fluttering butterflies and exotic insects, this tamed wilderness is sure to delight you. The Luge offers a truly unique outdoor experience suitable for all ages that is not found anywhere else in Singapore or Southeast Asia. After Luge, board the Sky ride and take in the fantastic panoramic scenery of the city skyline and beautiful coastline.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "MARINA BAY SANDS",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "You will transferred from your respective Hotel to Marina Bay Sands for 1 Night Stay. • Check-in - 03-00PM • Check Out - 11-00AM Enjoy the dazzling encounters in the beauty of art and science. Exhilarating parties on top of the world. ",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "BREAKFAST/ DEPARTURE",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
-          },
-          {
-            day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
-            description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
-          },
-          {
-            day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After your leisurely breakfast at Hotel, you will be transferred to Airport for your journey back home.",
           },
         ],
         hotels: [
           {
             name: "Marina Bay Sands",
-            image:
-              "https://www.marinabaysands.com/content/dam/sands/rebrand/homepage/destinations/singapore/marinabaysands/offers/mbs-weekend-staycation-dusk-view-c2.jpg",
+            image: Kynjai,
             price: "SGD 450",
             duration: "per night",
             description:
@@ -1414,8 +1368,7 @@ export const data = {
           },
           {
             name: "The Fullerton Bay Hotel Singapore",
-            image:
-              "https://www.fullertonhotels.com/-/media/fullerton/images/hero-banners/singapore/fbh/rooms/fbh_rooms_herobanner_2880x1335.jpg",
+            image: Kynjai,
             price: "SGD 600",
             duration: "per night",
             description:
@@ -1431,8 +1384,7 @@ export const data = {
           },
           {
             name: "Raffles Hotel Singapore",
-            image:
-              "https://www.raffles.com/singapore/images/singapore-hotel-rooms/raffles-hotel-singapore-courtyard-suite-balcony-r.jpg",
+            image: Kynjai,
             price: "SGD 800",
             duration: "per night",
             description:
@@ -1448,8 +1400,7 @@ export const data = {
           },
           {
             name: "The St. Regis Singapore",
-            image:
-              "https://www.marriott.com/resource/image/hotel/hotelsdt/phototour/sinxr-club.jpg",
+            image: Kynjai,
             price: "SGD 450",
             duration: "per night",
             description:
@@ -1476,7 +1427,10 @@ export const data = {
         duration: "16N/17D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Accommodation in a twin or double room with daily breakfast",
+          "Experienced English-speaking guide during all tours and transfers",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1484,52 +1438,57 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "SIEM REAP ARRIVAL",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "On arrival at Siem Reap international airport, please go to custom desk as your first point of entry to get visa-on-arrival into the country and pay stamping fees directly by cash to custom office there. The driving time is approximately 30 munites. Welcomed by our guide and transferred to your hotel for check in and has a rest. The driving distance is approximately 30 minutes. Meal- No Meal. Overnight at hotel in Siem Reap.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "FULL DAY ANGKOR TOUR",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "Today, visit to the antique capital of Angkor Thom, built in the 12th century- the South Gate with its huge statues depicting the churning of the ocean of milk, the Bayon Temple, unique for its 54 towers decorated with over 200 smiling faces of Avolokitesvara, the Phimeanakas, the Royal Enclosure, the Elephants Terrace and the Terrace of the Leper King. After a short your rest, you will visit the most famous of all the temples on the plain of Angkor- Angkor Wat. The temple complex covers 81 hectares and is comparable in size to the Imperial Palace in Beijing. Its distinctive five towers are emblazoned on the Cambodian flag.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "FULL DAY BENG MEALEA AND BANTEAY SREI",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "Morning, start tour at 8-00AM, we’ll visit an ancient Hindu temple at the countryside, BANTEAY SREY (citadel of women, 35Km north of Siem Reap), building began in the year 968- and was competed in the year 1,001 AD. Dedicated to Shiva God. In Cambodia, it is a unique pink sandstone temple which has most beautiful deep carvings. Afternoon, visit Beng Mealea built in the 12th century, the layout and style of Beng Mealea is very similar to Angkor Wat. It’s current state, however, is dominated by jungle.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "SIEM REAP - HA NOI BY FLIGHT",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "Free at leisure until transfer airport for departure flight to Hanoi. After 1 hour & 40 minutes on plane, arrival Hanoi airport, warm welcomed by our guide & driver then transfer to the city. Arrive at Noi Bai International Airport, transfer with a private vehicle and guide. The driving distance is approximately 45 minutes. Meal- Breakfast. Overnight at hotel in Ha Noi.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "HANOI FULL DAY CITY TOUR)",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
+              "The city tour begins with a visit to the Ho Chi Minh Complex which features the life of Ho Chi Minh, the nation’s founder. At the complex, visit the Ho Chi Minh Mausoleum, where the nation’s founder’s body is preserved (closed on Monday, Friday and through October - November), the colonial Presidential Palace, originally the French Governor Office and a fine example of French architecture in Hanoi, and the rural style Ho Chi Minh’s house on stilts where Ho Chi Minh lived and worked. Stop by one of Hanoi’s icons, the One Pillar Pagoda, built in the 11th Century in dedication to Bodhisattva Avalokiteshvara or Buddha of Compassion and reminiscent of a lotus blossom rising from a pond. ",
           },
           {
             day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
+            itinerary: "HANOI - HALONG OVER NIGHT ON BOAT",
             description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
+              "Morning pickup at 8-00 AM from your hotel for transfer to Ha Long Bay, which is about 160 km or 3.5-hour drive away. The transfer is approximately 3 hours. You will see some rural areas of the Red River Delta with plenty of chances to take photos of Vietnamese farmers working in paddy fields and you may stop on the way to admire the local scenery. Arrive in Ha Long City at 11-30 AM and check in aboard the booked junk when your journey across Ha Long Bay starts. Ha Long Bay meaning Descending Dragon Bay in Vietnamese as legend has it that it was where a holly dragon landed down from sky. The bay, famous as one of the world’s wonders and heritage sites whose formation dates back 500 million years, consists of around 2,000 karst islands and islets scattered over an area of 1,553 km2.",
           },
           {
             day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
+            itinerary: "HALONG - HANOI - DANANG - HOI AN BY FLIGHT",
             description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "In the morning, refresh your body and mind with a Tai Chi exercise on the sundeck at the break of dawn. Have tea and coffee onboard and continue exploring Ha Long Bay sailing across its 2000 islets and visiting some of its major highlights. Normally, check out at 09-30, have a buffet brunch while cruising back to shore. Disembark at 11-00 AM to transfer to Hanoi capital. Free at leisure until meet our guide then transfer to airport for flight to Da Nang. Flight time is approximately 1 hour and 15 minutes.",
+          },
+          {
+            day: "Day 8 : ",
+            itinerary: "DEPARTURE",
+            description:
+              "After breakfast, you are transferred to airport for flight to Yangon city. Connect your flight return home. Meal- Breakfast.",
           },
         ],
         hotels: [
           {
             name: "InterContinental Hanoi Westlake",
-            image:
-              "https://www.ihg.com/hotels/us/en/images/real-estate/hanoi/hanhb/hotel-exterior-1-5547230166-4x3.jpg",
+            image: Kynjai,
             price: "VND 3,600,000",
             duration: "per night",
             description:
@@ -1545,8 +1504,7 @@ export const data = {
           },
           {
             name: "Melia Hanoi Hotel",
-            image:
-              "https://media-cdn.tripadvisor.com/media/photo-s/09/b6/fd/61/melia-hanoi-hotel.jpg",
+            image: Kynjai,
             price: "VND 2,000,000",
             duration: "per night",
             description:
@@ -1562,8 +1520,7 @@ export const data = {
           },
           {
             name: "Fusion Maia Danang",
-            image:
-              "https://d1nabgopwop1kh.cloudfront.net/hotel-asset/94012/fusion-maia-danang-11-4x3.jpg",
+            image: Kynjai,
             price: "VND 9,600,000",
             duration: "per night",
             description:
@@ -1579,8 +1536,7 @@ export const data = {
           },
           {
             name: "Sherwood Suites Saigon",
-            image:
-              "https://pix10.agoda.net/hotelImages/106/1068489/1068489_17080817010055172836.jpg?s=1024x768",
+            image: Kynjai,
             price: "VND 2,400,000",
             duration: "per night",
             description:
@@ -1728,7 +1684,7 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: ["Daily Breakfast", "All sightseeing as per itinerary"],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1736,51 +1692,33 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "Kuala Lumpur",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Arrival at Kuala Lumpur airport. Meet & greet by our local representative at the airport. Pick-up from the airport and transfer to the hotel. Check into the hotel. Afternoon, you will visit the Batu Caves And Temple. Overnight at Kuala Lumpur.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "Kuala Lumpur",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast, you will proceed to City Highlights Tour. Explore the famous sites such as King’s Palace, Independence Square, National Museum and Thean Hou Temple and learn about the Malaysian history and culture. Next, you will visit the Menara KL Tower. Overnight at Kuala Lumpur.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "Kuala Lumpur",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After breakfast, you will proceed to Rainforest And Canopy tour. Explore the Malaysia’s Premier national park and one of the world’s oldest tropical rainforests. Enjoy the canopy trails with lush green jungle. Overnight at Kuala Lumpur.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "Kuala Lumpur",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
-          },
-          {
-            day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
-            description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
-          },
-          {
-            day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
-            description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
-          },
-          {
-            day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After breakfast, check out the hotel and then transfer to Kuala Lumpur airport for their departure flight back to home.",
           },
         ],
         hotels: [
           {
             name: "The Majestic Hotel Kuala Lumpur",
-            image: "https://www.majestickl.com/assets/img/hero/01.jpg",
+            image: Kynjai,
             price: "MYR 500",
             duration: "per night",
             description:
@@ -1796,8 +1734,7 @@ export const data = {
           },
           {
             name: "The St. Regis Langkawi",
-            image:
-              "https://www.marriott.com/resource/elements/img/18/18le4q4-40822_stregis.jpeg?width=1920",
+            image: Kynjai,
             price: "MYR 1,200",
             duration: "per night",
             description:
@@ -1813,8 +1750,7 @@ export const data = {
           },
           {
             name: "Shangri-La Hotel Kuala Lumpur",
-            image:
-              "https://www.shangri-la.com/-/media/shangrila/corporate/properties/kualalumpur/slkl_hero_1_1920x1080.jpg",
+            image: Kynjai,
             price: "MYR 450",
             duration: "per night",
             description:
@@ -1830,8 +1766,7 @@ export const data = {
           },
           {
             name: "The Ritz-Carlton Kuala Lumpur",
-            image:
-              "https://www.ritzcarlton.com/content/dam/the-ritz-carlton/hotels/asia-pacific/malaysia/kuala-lumpur/v2fpx/large/The-Ritz-Carlton-Kuala-Lumpur-v2fpx-grand-entrance-lounge.jpg",
+            image: Kynjai,
             price: "MYR 800",
             duration: "per night",
             description:
@@ -1910,8 +1845,7 @@ export const data = {
         hotels: [
           {
             name: "Shangri-La's Boracay Resort and Spa",
-            image:
-              "https://www.shangri-la.com/-/media/shangrila/corporate/properties/boracay/slg/newsletter/slg-boracay-hero.jpg",
+            image: Kynjai,
             price: "PHP 25,000",
             duration: "per night",
             description:
@@ -1927,8 +1861,7 @@ export const data = {
           },
           {
             name: "Makati Shangri-La, Manila",
-            image:
-              "https://www.shangri-la.com/-/media/shangrila/corporate/properties/manila/makatishangrila/hotel/deluxe-room/deluxe-room-01.jpg",
+            image: Kynjai,
             price: "PHP 12,500",
             duration: "per night",
             description:
@@ -1944,8 +1877,7 @@ export const data = {
           },
           {
             name: "El Nido Resorts Lagen Island",
-            image:
-              "https://www.elnidoresorts.com/wp-content/uploads/2017/09/El-Nido-Resorts-Lagen-Island_Air-Walkway.jpg",
+            image: Kynjai,
             price: "PHP 21,000",
             duration: "per night",
             description:
@@ -1961,8 +1893,7 @@ export const data = {
           },
           {
             name: "Solaire Resort and Casino",
-            image:
-              "https://www.solaireresort.com/-/media/images/solaire/homepage/hero.jpg",
+            image: Kynjai,
             price: "PHP 15,000",
             duration: "per night",
             description:
@@ -1989,7 +1920,10 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Meet & Greet services by our local representative at the airport",
+          "Breakfast & Dinner as per the itinerary.",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1997,52 +1931,50 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: " Arrival at Paro",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Fly to Paro, Transfer to Thimphu (2300m – 3 hours). Arrival at Paro at different times & since this is the first day of the tour, there are no other activities planned except for arrival at Paro and transfer to your hotel. The tiny town of Paro is bursting with color and tradition overlooked by a dramatic dzong. Fields cover most of the valley floor while hamlets and isolated farms dot the countryside - the houses here are considered to be among the most beautiful in the country. Paro is believed to be one of the first valleys to have received the imprint of Buddhism.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "Thimpu",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "Today your visit at Thimphu where you see a curved building, the white walls had wooden windows sticking out of the walls. This place has admirable architecture and fantastic history.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "Thimpu Sightseeing",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "This day sightseeing tour includes the Tag Dzong and watches tower for Rinpung Dzong. You can see the Trashichho dzong houses the secretariat, throne room, and offices of the King of Bhutan.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: " Drive to Punakha",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "Punakha Dzong is the winter residence of Bhutan’s spiritual leader, the Head Abbot, and the Central Monastic Body. The Dzong is built between two rivers known as 'Phochu' (Male River) and 'Mochu' (Female River). It takes almost four hours to drive between the windswept town of Wangdue and Trongsa. Here you visit Eastern Himalayas where you enjoy kayaking or rafting in the clean and clear waters of Pho Chhu River. You experience Kayaking and Rafting in class-3 rapids.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "Punakha - Bumthang",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
+              "After Breakfast, set off on the road to Jakar. Here at this beautiful place and you will see the 'castle of the white bird'. At this tour, you will see its picturesque location overlooking the Chokhor valley.",
           },
           {
             day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
+            itinerary: "Bumthang - Paro",
             description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
+              "Drive back to Paro for nearby sightseeing. There is the ruins of Drugyal Dzong, a site of great historical significance. It was from this fortress that the Bhutanese repelled many Tibetan invasions. The name means the victorious Bhutanese. It offers a magnificent vista of Mount Chomolhari, 'Mountain of Goddess' (7329 m). ",
           },
           {
             day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
-            description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+            itinerary: "Departure from Paro",
+            description: "Transfer to airport. Fly back to home.",
           },
         ],
         hotels: [
           {
             name: "COMO Uma Paro",
-            image:
-              "https://www.comohotels.com/-/media/como-hotels/uma/properties/uma-paro/main-image/uma-paro-1300x620-1.jpg?mw=1300&hash=3FF4CC4E91207E8E51D1B63038E106D4",
+            image: Kynjai,
             price: "USD 500",
             duration: "per night",
             description:
@@ -2058,8 +1990,7 @@ export const data = {
           },
           {
             name: "Amankora Punakha",
-            image:
-              "https://www.aman.com/-/media/aman/amankora/images/accommodation/amankora-punakha/amankora-punakha-king-bedroom-01.jpg?h=656&w=1170&la=en&hash=E1022F79D7B49F734E90291EBC13454E",
+            image: Kynjai,
             price: "USD 900",
             duration: "per night",
             description:
@@ -2075,8 +2006,7 @@ export const data = {
           },
           {
             name: "Six Senses Bhutan",
-            image:
-              "https://www.sixsenses.com/-/media/images/resorts/bhutan/thimphu/overview/overview1-16x9.jpg?mw=1920&hash=6A8EC46FAA26A54C89A7911FCA810E2A",
+            image: Kynjai,
             price: "USD 1200",
             duration: "per night",
             description:
@@ -2092,8 +2022,7 @@ export const data = {
           },
           {
             name: "Uma by COMO, Punakha",
-            image:
-              "https://www.comohotels.com/-/media/como-hotels/uma/properties/uma-punakha/main-image/uma-punakha-1300x620-1.jpg?mw=1300&hash=C07E8D6C96CC43747D3B9EB1F0F2ABEB",
+            image: Kynjai,
             price: "USD 550",
             duration: "per night",
             description:
@@ -2120,7 +2049,10 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Airport Pick Up an drop",
+          "Services of an English speaking guide will be provided.",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -2128,52 +2060,51 @@ export const data = {
         itinearys: [
           {
             day: "Day 1 : ",
-            itinerary: "India - Mahe - Praslin",
+            itinerary: "COLOMBO- HARBARANA",
             description:
-              "Arrive in Seychelles. Our representative will meet you at the airport and guide you to your vehicle. He/She will handover various ferry tickets and local maps etc. You will be driven to Mahe Ferry port for your transfer to Praslin. Ferry to Praslin. Our representative will receive you at Praslin port and escort you to your transfer van for transfer to Praslin Hotel.Rest of the free to relax.",
+              "Arrival at Colombo airport. Meet & greet by our local representative at the airport. Pick-up from the airport and transfer to the hotel at Habarana. Check into the hotel. After that, you will visit the Hurulu Forest Reserve. Observe many endangered species like the Indian Star Tortoise, Sri Lanka Jungle fowl, Sri Lankan Elephant, Sri Lanka Leopard and Rusty-spotted Cat. Overnight at Harbarana.",
           },
           {
             day: "Day 2 : ",
-            itinerary: "Vallee De Mai Tour (OPTIONAL TOUR)",
+            itinerary: "HARBARANA",
             description:
-              "Visit Praslin’s Vallée de Mai, a UNESCO World Heritage site and untouched biosphere like none other on Earth. Here giant palms rustle overhead as you meander through this ancient forest filled with many endemic species of palm and rare fauna, such as the Seychelles Black Parrot, the tiger chameleon and the diminutive Seychelles tree frog.",
+              "After breakfast proceed to Ritigala Ruins And Nature Reserve. Enjoy a mesmerizing hike to this beautiful mountain range and explore the ruins of Ritigala monastery. Next, you will visit the Dambulla Cave Temple. You can find three statues of Srilankan Kings and four Statues of gods and goddesses. Overnight at Harbarana.",
           },
           {
             day: "Day 3 : ",
-            itinerary: "La digue Boat & Bike Tour ( Recommended tour)",
+            itinerary: "HARBARANA - TRINCOMALEE",
             description:
-              "A coach ride to Baie Ste Anne Jetty for a trip to La Digue on the local schooner. On arrival at the island jetty you will be met and be given your bicycle which will enable you to discover and tour this beautiful island at your own pace and leisure. Suggested places of interest : L'Union Estate for a tour of the copra factory, the Giant Tortoise and visit of the refurbished colonial plantation house, a stop at Anse Source d'Argent -one of the most spectacular beaches in the world – where you can relax or have a swim, Grand Anse and other interesting coves along the way. As you tour the islandimmerse yourself in the unique atmosphere and discover the flora and fauna of La Digue.",
+              "After breakfast proceed to Trincomalee. Check into the hotel. After that, you will visit the Koneswaram Temple. Next, you will enjoy the Marble Beach. Overnight at Trincomalee.",
           },
           {
             day: "Day 4 : ",
-            itinerary: " Ile Aux Cerfs Tour by Speed Boat",
+            itinerary: "TRINCOMALEE - KANDY",
             description:
-              "After breakfast, take a ferry and arrive at Mahe. Amuse yourself with a city tour of Mahe. The best way to explore Victoria, Seychelles' capital, is simply to wander around. The market - selling fish, fresh fruits, vegetables, spices as well as arts & crafts - is open every day except Sunday, but the best time to get a feel for the place and the people is to visit on a Saturday morning when locals descend for their weekly shopping! You can take local buses which will be cost effective or hire a car at mentioned cost above.",
+              "After breakfast proceed to Kandy. Check into the hotel. After that, you will visit the Horton Plains National Park. Observe native wildlife in their natural environment and admire the diversity of flora and fauna. Next, you will visit the Lankatilaka Temple. Overnight at Kandy.",
           },
           {
             day: "Day 5 : ",
-            itinerary: "Glass Bottom Boat Tour in Marine Park (Optional tour)",
+            itinerary: "KANDY",
             description:
-              "Red Letter recommends you to book this tour from local vendors on beach This is a great opportunity to discover the underwater world of tropical coral reefs at one of the Marine National Parks of Seychelles. Board the boat from Marine Charter in Victoria and journey along the coast to the marine park where you will see an amazing variety of Marine Life - including corals teeming with fish and have the chance to enjoy the fascinating underwater world. Along the way, participate in fish feeding sessions. Visit one or two islands along the way and enjoy a delicious Creole barbeque lunch and spend the afternoon swimming or simply lazing in the sun.",
+              "After breakfast proceed to Bahiravokanda Vihara Buddha Statue. Next, you will visit the Pinnawala Elephant Orphanage. Overnight at Kandy.",
           },
           {
             day: "Day 6 : ",
-            itinerary: "Back to India with Amazing Memories !!!!!!",
+            itinerary: "KANDY - COLOMBO",
             description:
-              "Following A Delicious Breakfast, Check-Out From The Hotel.You Will Be Given Transfers From Your Mahe Hotel To Mahe Airport. The claims for Adam and Eve being the original honeymooners, as well as the original sinners, may not stand up to the closest scrutiny, but the Seychelles remains a contender for paradise on earth. Come back to India with most amazing memories ever.",
+              "After breakfast proceed to Colombo. Check into the hotel. Afternoon, you will visit the Kelaniya Raja Maha Vihara. Overnight at Colombo.",
           },
           {
             day: "Day 7 : ",
-            itinerary: "Full Day Bus Tour (Optional tour)",
+            itinerary: "DEPARTURE",
             description:
-              "Pick up from respective hotel.At 0900HRS: start of guided tour of Victoria/ Market/ Souvenir Shops. Visit of the Botanical Garden. Depart Victoria and head towards Sans Souci via BelAu. Brief stops long the way for photo before reaching the Mission Lodge. Visit of Mission Lodge * Site of the old school built for freed slave’s children. Depart the Mission Lodge and head down towards the tea Tavern for a guided tour of 30 mins and afterwards head towards the west and south coast with photo stops along the way. Visit of Port Launay beach for photo shooting. Drive through the coast to a Creole Restaurant for lunch. At 1300HRS:Enjoy a nice Creole Buffet lunch and spend the afternoon at leisure. End the tour with a visit of the craft village until 1530HRS and then transfer back to respective hotels",
+              "After breakfast, transfer to the Airport for Departure.",
           },
         ],
         hotels: [
           {
             name: "Heritance Kandalama",
-            image:
-              "https://www.heritancehotels.com/kandalama/wp-content/uploads/sites/2/2016/01/hero1.jpg",
+            image: Kynjai,
             price: "LKR 30,000",
             duration: "per night",
             description:
@@ -2189,7 +2120,7 @@ export const data = {
           },
           {
             name: "Galle Face Hotel",
-            image: "https://www.gallefacehotel.com/images/banner/05.jpg",
+            image: Kynjai,
             price: "LKR 25,000",
             duration: "per night",
             description:
@@ -2205,8 +2136,7 @@ export const data = {
           },
           {
             name: "Cape Weligama",
-            image:
-              "https://assets3.thrillist.com/v1/image/1524846/1584x1054/crop;jpeg_quality=60;progressive.jpg",
+            image: Kynjai,
             price: "LKR 40,000",
             duration: "per night",
             description:
@@ -2222,8 +2152,7 @@ export const data = {
           },
           {
             name: "The Fortress Resort & Spa",
-            image:
-              "https://www.fortressresortandspa.com/assets/fortress-resort-spa/flash-sale/homepage/Fortress-Resort-Spa-homepage-Flash-Sale-banner.jpg",
+            image: Kynjai,
             price: "LKR 20,000",
             duration: "per night",
             description:
@@ -2302,8 +2231,7 @@ export const data = {
         hotels: [
           {
             name: "Dwarika's Hotel",
-            image:
-              "https://www.dwarikas.com/media/thumbnails/uploads/2019/10/29/DH_Complex_View_001-0000-0000-0000-0000-0000-0000-0000.jpg.1440x960_q85_crop.jpg",
+            image: Kynjai,
             price: "NPR 36,000",
             duration: "per night",
             description:
@@ -2319,8 +2247,7 @@ export const data = {
           },
           {
             name: "The Pavilions Himalayas",
-            image:
-              "https://media-cdn.tripadvisor.com/media/photo-s/0e/e8/36/1a/the-pavilions-himalayas.jpg",
+            image: Kynjai,
             price: "NPR 19,000",
             duration: "per night",
             description:
@@ -2336,8 +2263,7 @@ export const data = {
           },
           {
             name: "Hyatt Regency Kathmandu",
-            image:
-              "https://kathmanducraze.com/wp-content/uploads/2020/06/Hyatt-Regency-Kathmandu.jpg",
+            image: Kynjai,
             price: "NPR 14,500",
             duration: "per night",
             description:
@@ -2353,8 +2279,7 @@ export const data = {
           },
           {
             name: "Temple Tree Resort & Spa",
-            image:
-              "https://www.templetree.com.np/assets/images/resort-overview.jpg",
+            image: Kynjai,
             price: "NPR 10,000",
             duration: "per night",
             description:

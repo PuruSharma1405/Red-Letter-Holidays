@@ -35,6 +35,7 @@ const Hotel = ({ singleHotel, index, notInterested, specifichotel }) => {
     localStorage.setItem("hotelPrice", hotelName?.price);
   };
 
+  console.log("image", singleHotel?.image);
   return (
     <div
       className={`fade-in-section ${

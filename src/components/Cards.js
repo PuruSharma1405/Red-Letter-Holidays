@@ -49,6 +49,7 @@ const Cards = ({ place, fetchingPlace, fetchingItienary, specifichotel }) => {
     fetchingPlace(`package/${id}`);
   }, [place]);
 
+  console.log("allPlaces", allPlaces);
   return (
     <div className=" mx-auto">
       <ToastContainer />
