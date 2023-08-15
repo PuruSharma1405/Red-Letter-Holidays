@@ -55,20 +55,20 @@ const Navbar = ({ fetchingPlace }) => {
           <div className="flex text-black text-[15px] uppercase outline-none gap-10 py-4 mr-[25px] ">
             <Link
               to="/"
-              className=" text-white hover:no-underline hover:font-bold scale-100"
+              className=" text-white hover:no-underline hover:font-bold scale-100 no-underline"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 "
+              className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
             >
               About
             </Link>
             <div className="dropdown">
               <Link
                 to="#"
-                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
               >
                 INDIA
               </Link>
@@ -89,7 +89,7 @@ const Navbar = ({ fetchingPlace }) => {
             <div className="dropdown">
               <Link
                 to="#"
-                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
               >
                 ASIA
               </Link>
@@ -127,7 +127,7 @@ const Navbar = ({ fetchingPlace }) => {
             <div className="dropdown">
               <Link
                 to="#"
-                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
               >
                 BEACHES
               </Link>
@@ -149,7 +149,7 @@ const Navbar = ({ fetchingPlace }) => {
             <div className="dropdown rest-of-the-world">
               <Link
                 to="#"
-                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
               >
                 Rest of the world
               </Link>
@@ -171,7 +171,7 @@ const Navbar = ({ fetchingPlace }) => {
             <div className="dropdown">
               <Link
                 to="#"
-                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
               >
                 Services
               </Link>
@@ -201,7 +201,7 @@ const Navbar = ({ fetchingPlace }) => {
             <div>
               <Link
                 to="/payment"
-                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100"
+                className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 no-underline"
               >
                 Payment
               </Link>
@@ -214,7 +214,7 @@ const Navbar = ({ fetchingPlace }) => {
             </Link>
           </div>
         </div>
-        <Link className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 flex text-[18px] phone-number">
+        <Link className="hover:text-[#FEA116] text-white hover:no-underline hover:font-bold scale-100 flex text-[18px] phone-number no-underline">
           <MdOutlinePhoneForwarded className="relative mt-[10px] mr-[10px] text-[px]" />
           <span className="mb-[3px] relative">+91 8447190171</span>
         </Link>
