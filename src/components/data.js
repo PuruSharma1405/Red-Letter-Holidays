@@ -270,10 +270,10 @@ export const data = {
           {
             name: "Taj Exotica",
             image: TajExotica,
-            price: "17500",
+            price: "33,512",
             duration: "per night",
             description:
-              "Located on the southwest coast of Goa, Taj Exotica is a luxury resort that offers breathtaking views of the Arabian Sea. The resort features 140 spacious rooms and suites, each elegantly designed with a private balcony or verandah. Taj Exotica also offers world-class dining options, a spa, and an outdoor pool.",
+              "Located on the southwest coast of Goa, Taj Exotica is a luxury resort that offers breathtaking views of the Arabian Sea. The resort features 140 spacious rooms and suites, each elegantly designed with a private balcony or verandah. Taj Exotica also offers world-class dining options, a spa, and an outdoor pool.The resort also offers a variety of dining options, including a beachfront restaurant and a poolside bar.",
             rating: "4.5",
             trip_type: "Leisure",
             inclusions: [
@@ -286,7 +286,7 @@ export const data = {
           {
             name: "Park Hyatt Goa Resort and Spa",
             image: ParkHyatt,
-            price: "22,500",
+            price: "18,319",
             duration: "per night",
             description:
               "Set in 45 acres of lush gardens, the Park Hyatt Goa Resort and Spa is a 5-star hotel located in South Goa. The resort features 250 rooms and suites, each with a private balcony or terrace. Guests can enjoy a range of facilities including an outdoor pool, spa, fitness center, and tennis courts. The resort also offers a variety of dining options, including a beachfront restaurant and a poolside bar.",
@@ -392,7 +392,7 @@ export const data = {
           {
             name: "Vivanta Dal View",
             image: Vivanta,
-            price: "12,500",
+            price: "30,680",
             duration: "per night",
             description:
               "Vivanta Dal View is a 5-star luxury hotel located in Srinagar, Kashmir. The hotel features 82 well-appointed rooms and suites, each with a private balcony or veranda. Guests can enjoy a range of facilities including an indoor pool, spa, fitness center, and 2 restaurants and bars.",
@@ -408,7 +408,7 @@ export const data = {
           {
             name: "The Lalit Grand Palace Srinagar",
             image: Lalit,
-            price: "18,000",
+            price: "25,960",
             duration: "per night",
             description:
               "The Lalit Grand Palace Srinagar is a 5-star luxury hotel located in the heart of Srinagar, Kashmir. The hotel is set in a former palace and features 113 rooms and suites, each with a unique layout and decor. Guests can enjoy a range of facilities including an indoor pool, spa, fitness center, and 4 restaurants and bars.",
@@ -424,7 +424,7 @@ export const data = {
           {
             name: "The Khyber Himalayan Resort & Spa",
             image: Khyber,
-            price: "24,000",
+            price: "35,961",
             duration: "per night",
             description:
               "The Khyber Himalayan Resort & Spa is a 5-star luxury resort located in Gulmarg, Kashmir. The hotel features 85 rooms and suites, each with a private balcony or terrace offering stunning views of the Himalayas. Guests can enjoy a range of facilities including an outdoor pool, spa, fitness center, and 4 restaurants and bars.",
@@ -440,7 +440,7 @@ export const data = {
           {
             name: "The Chinar Resort & Spa",
             image: ChinarResort,
-            price: "9,500",
+            price: "5334",
             duration: "per night",
             description:
               "The Chinar Resort & Spa is a 4-star luxury resort located in Pahalgam, Kashmir. The hotel features 55 rooms and suites, each with a private balcony or terrace offering views of the mountains or gardens. Guests can enjoy a range of facilities including an outdoor pool, spa, fitness center, and 2 restaurants and bars.",
@@ -450,7 +450,7 @@ export const data = {
               "Daily breakfast",
               "Complimentary Wi-Fi",
               "Return airport transfers",
-              "Access to fitness center and swimming pool",
+              "Air Condioning",
             ],
           },
         ],
@@ -505,7 +505,7 @@ export const data = {
           {
             name: "The Grand Dragon Ladakh",
             image: Dragon,
-            price: "10,500",
+            price: "24,249",
             duration: "per night",
             description:
               "The Grand Dragon Ladakh is a 4-star luxury hotel located in Leh, Ladakh. The hotel features 82 well-appointed rooms and suites, each with a private balcony offering stunning views of the surrounding mountains. Guests can enjoy a range of facilities including a spa, fitness center, and 2 restaurants and bars.",
@@ -521,7 +521,7 @@ export const data = {
           {
             name: "The Zen Ladakh",
             image: Zen,
-            price: "6,500",
+            price: "9030",
             duration: "per night",
             description:
               "The Zen Ladakh is a 3-star hotel located in Leh, Ladakh. The hotel features 30 comfortable rooms and suites, each with a private balcony offering views of the surrounding mountains. Guests can enjoy a range of facilities including a restaurant and rooftop lounge.",
@@ -537,7 +537,7 @@ export const data = {
           {
             name: "Ladakh Sarai Resort",
             image: Sarai,
-            price: "9,500",
+            price: "9543",
             duration: "per night",
             description:
               "Ladakh Sarai Resort is a luxury eco-resort located in Saboo, Ladakh. The resort features 16 spacious tents and cottages, each with a private bathroom and outdoor seating area offering views of the surrounding mountains. Guests can enjoy a range of facilities including a spa, meditation center, and organic farm-to-table restaurant.",
@@ -553,7 +553,7 @@ export const data = {
           {
             name: "The Ladakh Himalayan Retreat",
             image: Himalayan,
-            price: "7,500",
+            price: "2758",
             duration: "per night",
             description:
               "The Ladakh Himalayan Retreat is a boutique hotel located in Shey, Ladakh. The hotel features 14 well-appointed rooms and suites, each with a private balcony or terrace offering views of the surrounding mountains. Guests can enjoy a range of facilities including a restaurant and garden.",
@@ -637,7 +637,7 @@ export const data = {
           {
             name: "Kumarakom Lake Resort",
             image: Kumarakom,
-            price: "12,500",
+            price: "21,565",
             duration: "per night",
             description:
               "Kumarakom Lake Resort is a luxury resort located on the banks of Vembanad Lake in Kumarakom, Kerala. The resort features 50 traditional Kerala-style villas and rooms, each with a private courtyard or balcony overlooking the lake or the lush gardens. Guests can enjoy a range of facilities including a spa, fitness center, and multiple dining options.",
@@ -653,7 +653,7 @@ export const data = {
           {
             name: "The Zuri Kumarakom",
             image: Zuri,
-            price: "9,500",
+            price: "15,895",
             duration: "per night",
             description:
               "The Zuri Kumarakom is a 5-star luxury resort located on the banks of Vembanad Lake in Kumarakom, Kerala. The resort features 72 spacious rooms and villas, each with a private balcony or patio offering views of the lake or the gardens. Guests can enjoy a range of facilities including a spa, swimming pool, and multiple dining options.",
@@ -669,7 +669,7 @@ export const data = {
           {
             name: "Fragrant Nature Backwater Resort & Ayurveda Spa",
             image: Fragrant,
-            price: "8,500",
+            price: "5824",
             duration: "per night",
             description:
               "Fragrant Nature Backwater Resort & Ayurveda Spa is a luxury resort located in Kollam, Kerala. The resort features 29 spacious rooms and suites, each with a private balcony offering views of the backwaters or the gardens. Guests can enjoy a range of facilities including a spa, swimming pool, and multiple dining options.",
@@ -685,7 +685,7 @@ export const data = {
           {
             name: "Taj Malabar Resort & Spa, Cochin",
             image: TajMalbar,
-            price: "11,000",
+            price: "10,620",
             duration: "per night",
             description:
               "Taj Malabar Resort & Spa is a luxury resort located in Cochin, Kerala. The resort features 96 spacious rooms and suites, each with a private balcony offering views of the Arabian Sea or the gardens. Guests can enjoy a range of facilities including a spa, swimming pool, and multiple dining options.",
@@ -759,7 +759,7 @@ export const data = {
           {
             name: "Wild Mahseer",
             image: WildMahseer,
-            price: "7,500",
+            price: "9263",
             duration: "per night",
             description:
               "Wild Mahseer is a heritage bungalow located in Balipara, Assam. The bungalow features 4 spacious rooms, each with a private balcony offering views of the tea gardens and the Brahmaputra River. Guests can enjoy a range of activities including birdwatching, tea garden walks, and cultural tours of the nearby villages.",
@@ -775,7 +775,7 @@ export const data = {
           {
             name: "Mayfair Darjeeling",
             image: MayFair,
-            price: "11,500",
+            price: "5443",
             duration: "per night",
             description:
               "Mayfair Darjeeling is a luxury hotel located in the heart of Darjeeling, West Bengal. The hotel features 44 spacious rooms and suites, each with a private balcony offering views of the Himalayas or the town. Guests can enjoy a range of facilities including a spa, fitness center, and multiple dining options.",
@@ -791,7 +791,7 @@ export const data = {
           {
             name: "The Elgin Nor-Khill, Gangtok",
             image: Elgin,
-            price: "9,500",
+            price: "9,440",
             duration: "per night",
             description:
               "The Elgin Nor-Khill is a heritage hotel located in Gangtok, Sikkim. The hotel features 25 spacious rooms and suites, each with a private balcony offering views of the mountains or the gardens. Guests can enjoy a range of facilities including a spa, fitness center, and multiple dining options.",
@@ -807,7 +807,7 @@ export const data = {
           {
             name: "Ri Kynjai - Serenity By The Lake, Shillong",
             image: Kynjai,
-            price: "10,000",
+            price: "16,392",
             duration: "per night",
             description:
               "Ri Kynjai - Serenity By The Lake is a luxury resort located on the banks of Umiam Lake in Shillong, Meghalaya. The resort features 17 spacious cottages, each with a private balcony offering views of the lake or the forests. Guests can enjoy a range of facilities including a spa, fitness center, and multiple dining options.",
@@ -881,7 +881,7 @@ export const data = {
             name: "Taj Lake Palace",
             image:
               "https://udaipurtourism.co.in/images/places-to-visit/headers/taj-lake-palace-udaipur-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg",
-            price: "25,000",
+            price: "32,686",
             duration: "per night",
             description:
               "Taj Lake Palace is a luxury hotel located on an island in Lake Pichola in Udaipur, Rajasthan. The hotel features 83 luxurious rooms and suites, each with breathtaking views of the lake and the surrounding Aravalli Mountains. Guests can enjoy a range of facilities including a spa, swimming pool, and multiple dining options.",
@@ -897,7 +897,7 @@ export const data = {
           {
             name: "The Oberoi Rajvilas",
             image: Kynjai,
-            price: "20,000",
+            price: "33,630",
             duration: "per night",
             description:
               "The Oberoi Rajvilas is a luxury hotel located in Jaipur, Rajasthan. The hotel features 71 luxurious rooms and villas, each with a private courtyard or terrace offering views of the hotel's lush gardens or the surrounding hills. Guests can enjoy a range of facilities including a spa, swimming pool, and multiple dining options.",
@@ -913,7 +913,7 @@ export const data = {
           {
             name: "The Serai Jaisalmer",
             image: Kynjai,
-            price: "18,000",
+            price: "45,758",
             duration: "per night",
             description:
               "The Serai Jaisalmer is a luxury desert camp located in the Thar Desert near Jaisalmer, Rajasthan. The camp features 21 luxurious tents, each with a private pool and stunning views of the surrounding sand dunes. Guests can enjoy a range of activities including camel safaris, desert walks, and cultural performances.",
@@ -929,7 +929,7 @@ export const data = {
           {
             name: "RAAS Jodhpur",
             image: Kynjai,
-            price: "15,000",
+            price: "20,060",
             duration: "per night",
             description:
               "RAAS Jodhpur is a luxury hotel located in the heart of Jodhpur's old city, Rajasthan. The hotel features 39 luxurious rooms and suites, each with a private balcony or terrace offering views of the Mehrangarh Fort and the Blue City. Guests can enjoy a range of facilities including a spa, rooftop restaurant, and swimming pool.",
@@ -1559,11 +1559,11 @@ export const data = {
         name: "Bali",
         info: "Don't talk about heaven if you've never been to Bali",
         image: Bali,
-        price: "78,595",
+        price: "22,981",
         duration: "5N/6D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: ["Daily Breakfast", "Airport transfer"],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -1610,7 +1610,7 @@ export const data = {
           {
             name: "The Ritz-Carlton, Bali",
             image: Carlton,
-            price: "22,830",
+            price: "29,902",
             duration: "per night",
             description:
               "The Ritz-Carlton, Bali is a luxurious 5-star hotel located in Nusa Dua, Bali. The hotel features 313 elegant guest rooms and suites, each with a private balcony or terrace offering panoramic views of the Indian Ocean or the lush resort gardens. Guests can enjoy a range of facilities including six restaurants and bars, a luxurious spa, and a private beach.",
@@ -1626,7 +1626,7 @@ export const data = {
           {
             name: "The St. Regis Bali Resort",
             image: Regis,
-            price: "39,138",
+            price: "57,729",
             duration: "per night",
             description:
               "The St. Regis Bali Resort is a luxurious 5-star hotel located in Nusa Dua, Bali. The hotel features 123 beautifully appointed guest rooms and suites, each with a private balcony or terrace offering stunning views of the ocean or the lush tropical gardens. Guests can enjoy a range of facilities including a private beach, an exquisite spa, and multiple dining options.",
@@ -1642,7 +1642,7 @@ export const data = {
           {
             name: "COMO Uma Ubud",
             image: Como,
-            price: "19,569",
+            price: "22,981",
             duration: "per night",
             description:
               "COMO Uma Ubud is a luxury resort located in the heart of Ubud, Bali. The resort features 46 rooms, suites and villas, each with a private terrace or balcony offering views of the lush tropical gardens or the rice terraces. Guests can enjoy a range of facilities including a spa, yoga studio, and multiple dining options.",
@@ -1658,7 +1658,7 @@ export const data = {
           {
             name: "Mandapa, A Ritz-Carlton Reserve",
             image: Mandapa,
-            price: "35,877",
+            price: "1,14,678",
             duration: "per night",
             description:
               "Mandapa, A Ritz-Carlton Reserve is a luxurious 5-star hotel located in Ubud, Bali. The hotel features 60 beautifully appointed suites and villas, each with a private pool and a terrace or balcony overlooking the lush Ayung River valley. Guests can enjoy a range of facilities including a spa, multiple dining options, and access to the resort's organic farm.",
@@ -1719,7 +1719,7 @@ export const data = {
           {
             name: "The Majestic Hotel Kuala Lumpur",
             image: Kynjai,
-            price: "MYR 500",
+            price: "8229",
             duration: "per night",
             description:
               "The Majestic Hotel Kuala Lumpur is a luxurious 5-star hotel located in the heart of Kuala Lumpur's city center. The hotel features 300 elegant rooms and suites, each with luxurious amenities and panoramic views of the city. Guests can enjoy a range of facilities including a day spa, fitness center, and multiple dining options.",
@@ -1735,7 +1735,7 @@ export const data = {
           {
             name: "The St. Regis Langkawi",
             image: Kynjai,
-            price: "MYR 1,200",
+            price: "27,926",
             duration: "per night",
             description:
               "The St. Regis Langkawi is a luxurious 5-star hotel located on the tranquil island of Langkawi. The hotel features 85 spacious suites and villas, each with private balconies offering stunning views of the Andaman Sea. Guests can enjoy a range of facilities including a day spa, fitness center, and multiple dining options.",
@@ -1751,7 +1751,7 @@ export const data = {
           {
             name: "Shangri-La Hotel Kuala Lumpur",
             image: Kynjai,
-            price: "MYR 450",
+            price: "8554",
             duration: "per night",
             description:
               "The Shangri-La Hotel Kuala Lumpur is a luxurious 5-star hotel located in the heart of Kuala Lumpur's city center. The hotel features 662 elegant rooms and suites, each with stunning city views. Guests can enjoy a range of facilities including a day spa, fitness center, and multiple dining options.",
@@ -1767,7 +1767,7 @@ export const data = {
           {
             name: "The Ritz-Carlton Kuala Lumpur",
             image: Kynjai,
-            price: "MYR 800",
+            price: "24,014",
             duration: "per night",
             description:
               "The Ritz-Carlton Kuala Lumpur is a luxurious 5-star hotel located in the heart of Kuala Lumpur's Golden Triangle. The hotel features 365 spacious rooms and suites, each with elegant furnishings and panoramic views of the city. Guests can enjoy a range of facilities including a day spa, fitness center, and multiple dining options.",
@@ -2306,7 +2306,7 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Dec-Apr",
         idealDuration: "4-5 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: ["Daily Breakfast", "All sightseeing as per itinerary"],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -2340,7 +2340,7 @@ export const data = {
           {
             name: "Siyam World",
             image: Siyam,
-            price: "18,575",
+            price: "56,941",
             duration: "per night",
             description:
               "Siyam World is a striking new vision of the Maldives’ rich natural wonders, a carefree playground with an exciting, diverse, and endless array of ‘never-seen-before’ experiences,Designed for fun-loving, open-minded couples, romance seekers, families or larger groups of friends, with the freedom to roam, socialise and engage in an island community. Siyam World is one of the largest islands in the Maldives to boast a resort and show-stopping residences - The Beach House Collection. ",
@@ -2356,7 +2356,7 @@ export const data = {
           {
             name: "Centara Grand",
             image: CentaraGrand,
-            price: "22,290",
+            price: "93,230",
             duration: "per night",
             description:
               "Centara Grand Island Resort & Spa Maldives is a haven of luxury and tranquility in the stunning Maldives. Immerse yourself in the crystal-clear waters and pristine white sandy beaches while experiencing the epitome of indulgence. Discover our Maldives tour packages and Maldives water villa packages, offering a range of exquisite accommodations and unforgettable experiences. From private water villas with direct access to the turquoise lagoon to thrilling underwater adventures and rejuvenating spa treatments, every moment at Centara Grand Island Resort & Spa promises to be a cherished memory.",
@@ -2373,7 +2373,7 @@ export const data = {
           {
             name: "Ayada Maldives",
             image: Ayada,
-            price: "25,830",
+            price: "1,42,159",
             duration: "per night",
             description:
               "Make memories that last for a lifetime. Ayada Maldives offers an extensive list of excursions that will showcase the finest and authentic Maldivian experiences. Ranging from sunset cruises, fishing trips and excursions to inhabited islands, all excursions are undertaken under the care of experienced and personable team members.",
@@ -2389,7 +2389,7 @@ export const data = {
           {
             name: "Furaveri Maldives",
             image: Furaveri,
-            price: "14,180",
+            price: "25,628",
             duration: "per night",
             description:
               "Escape to an island with an intriguing history and rich with life; where you will be well taken care of and enjoy the simple pleasures as you unwind in a ocean setting. Take advantage of 25% off and exclusive benefits offered with Furaveri ACCORD,all excursions are undertaken under the care of experienced and personable team members.",
@@ -2416,7 +2416,10 @@ export const data = {
         duration: "5N/6D",
         BestTime: "Sep-Dec",
         idealDuration: "6-7 nights",
-        Inclusions: ["Meet and Greet", "3 Nights stay in Mahe"],
+        Inclusions: [
+          "Daily breakfast and Dinner",
+          "Hotels assistance / 24h/24h hotline",
+        ],
         Exclusions: [
           "Any increase in the airfare",
           "Any expense of personal nature",
@@ -2464,7 +2467,7 @@ export const data = {
             name: "Four Seasons Resort Mauritius at Anahita",
             image:
               "https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2009/11955/11955_0_fourseasonsresortmauritiusatanahita_fsa-g.jpg",
-            price: "56,961",
+            price: "90,781",
             duration: "per night",
             description:
               "Four Seasons Resort Mauritius at Anahita is a luxury resort located on the east coast of Mauritius. The resort features 123 spacious villas, each with a private pool and garden, offering views of the ocean, lagoon or mountains. Guests can enjoy a range of facilities including a private beach, spa, fitness center, and multiple dining options.",
@@ -2481,7 +2484,7 @@ export const data = {
             name: "St. Regis Mauritius Resort",
             image:
               "https://www.akvillas.com/-/media/abercrombieandkent/images/accommodation/indian-ocean/mauritius/the-st-regis-mauritius-resort/str3459ex-144509-manor-house-from-the-beach-at-sunset-high.jpg?la=en&hash=9B2D7D8042CF8E1F3FFD26EFD7EA5C5AB918F988",
-            price: "36,073",
+            price: "1,37,278",
             duration: "per night",
             description:
               "St. Regis Mauritius Resort is a luxury resort located on the southwest coast of Mauritius. The resort features 172 spacious rooms and suites, each with a private terrace or balcony offering views of the ocean or gardens. Guests can enjoy a range of facilities including a private beach, spa, fitness center, and multiple dining options.",
@@ -2498,7 +2501,7 @@ export const data = {
             name: "Constance Prince Maurice",
             image:
               "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d3/69/5e/suite-on-stilts.jpg?w=700&h=-1&s=1",
-            price: "27,900",
+            price: "24,828",
             duration: "per night",
             description:
               "Constance Prince Maurice is a luxury resort located on the northeast coast of Mauritius. The resort features 64 spacious suites and villas, each with a private balcony or terrace offering views of the ocean or the gardens. Guests can enjoy a range of facilities including a private beach, spa, fitness center, and multiple dining options.",
@@ -2515,7 +2518,7 @@ export const data = {
             name: "Shangri-La’s Le Touessrok Resort & Spa",
             image:
               "https://hi-cdn.t-rp.co.uk/images/hotels/740047/0?width=870&height=480&crop=false",
-            price: "56,249",
+            price: "59,157",
             duration: "per night",
             description:
               "Shangri-La’s Le Touessrok Resort & Spa is a luxury resort located on the east coast of Mauritius. The resort features 200 spacious rooms and suites, each with a private balcony or terrace offering views of the ocean or the gardens. Guests can enjoy a range of facilities including a private beach, spa, fitness center, and multiple dining options.",
@@ -2538,7 +2541,7 @@ export const data = {
         info: "Seychells - where reality is better than dreams",
         image:
           "https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2021/05/USE_Seychelles_GettyImages-981523266.jpg",
-        price: "13200",
+        price: "41,124",
         duration: "5N/6D",
         BestTime: "Apr-May",
         idealDuration: "6-7 nights",
@@ -2596,7 +2599,7 @@ export const data = {
             name: "Four Seasons Resort Seychelles",
             image:
               "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/b3/1d/e0/ocean-view-suite.jpg?w=700&h=-1&s=1",
-            price: "24000",
+            price: "1,45,377",
             duration: "per night",
             description:
               "The Four Seasons Resort Seychelles is a luxurious resort located on the southwestern coast of Mahé island. It features 67 tree-house style villas and suites with spectacular views of the Indian Ocean. The resort also offers a full-service spa, multiple dining options, an outdoor infinity pool, and a range of activities including snorkeling, scuba diving, and hiking.",
@@ -2613,7 +2616,7 @@ export const data = {
             name: "Constance Lemuria",
             image:
               "https://www.britishairways.com/badp/static/external/SC-SEZ-1750037/31_SC-SEZ-1750037-HTLCON-P1921.jpeg",
-            price: "18000",
+            price: "1,07,892",
             duration: "per night",
             description:
               "Constance Lemuria is a luxurious resort situated on the northwestern coast of Praslin island. It offers 105 elegantly designed suites and villas, all featuring private balconies or terraces with stunning views of the Indian Ocean. The resort also features a spa, an 18-hole golf course, multiple dining options, and a range of water sports and activities.",
@@ -2630,7 +2633,7 @@ export const data = {
             name: "Hilton Seychelles Labriz Resort & Spa",
             image:
               "https://www.seyvillas.com/img/objects/43/2530x1467_75/beachfront-villa-3xx.jpg",
-            price: "15000",
+            price: "41,124",
             duration: "per night",
             description:
               "Hilton Seychelles Labriz Resort & Spa is a luxurious resort situated on Silhouette Island, the third-largest island in Seychelles. It features 111 villas and suites, all featuring private pools and stunning views of the surrounding mountains and ocean. The resort also offers a full-service spa, multiple dining options, and a range of activities including hiking, snorkeling, and scuba diving.",
@@ -2647,7 +2650,7 @@ export const data = {
             name: "Raffles Seychelles",
             image:
               "https://www.raffles.com/assets/0/72/583/584/1591/e1d50862-5df1-49d9-a77a-c92558370547.jpg",
-            price: "20000",
+            price: "81,864",
             duration: "per night",
             description:
               "Raffles Seychelles is a luxurious resort situated on the northeastern tip of Praslin island. It offers 86 spacious villas, all featuring private pools and spectacular views of the Indian Ocean. The resort also features a full-service spa, multiple dining options, and a range of activities including kayaking, snorkeling, and fishing.",
@@ -2670,7 +2673,7 @@ export const data = {
         info: "Thailand,where the smiles are as warm as the sunsets",
         image:
           "https://a.cdn-hotels.com/gdcs/production146/d585/aa60115c-bdfc-479f-88ba-5cb0f15a5af8.jpg?impolicy=fcrop&w=800&h=533&q=medium",
-        price: "13,610",
+        price: "2162",
         duration: "5N/6D",
         BestTime: "Nov-Apr",
         idealDuration: "4-5 nights",
@@ -2715,7 +2718,7 @@ export const data = {
             name: "COMO Point Yamu, Phuket",
             image:
               "https://media-cdn.tripadvisor.com/media/photo-s/26/00/01/33/point-yamu-villa-exterior.jpg",
-            price: "8000",
+            price: "17,067",
             duration: "per night",
             description:
               "COMO Point Yamu, Phuket is a luxurious resort located on the east coast of Phuket. It offers 106 stylish rooms and suites, all featuring private balconies with stunning views of Phang Nga Bay. The resort also features a full-service spa, multiple dining options, an outdoor pool, and a range of activities including kayaking, paddleboarding, and Thai cooking classes.",
@@ -2732,7 +2735,7 @@ export const data = {
             name: "The Chedi, Chiang Mai",
             image:
               "https://media.cntraveler.com/photos/5f6ac3e34ca0cc3eae33d0a9/16:9/w_2560,c_limit/Anantara-Chiang-Mai-Thailand.jpg",
-            price: "7000",
+            price: "2162",
             duration: "per night",
             description:
               "The Chedi, Chiang Mai is a luxurious resort situated on the banks of the Mae Ping River in Chiang Mai. It features 84 spacious rooms and suites, all featuring private balconies with views of the river or the resort's lush gardens. The resort also offers a full-service spa, multiple dining options, an outdoor pool, and a range of activities including yoga and cooking classes.",
@@ -2748,7 +2751,7 @@ export const data = {
           {
             name: "Rayavadee, Krabi",
             image: "https://www.rayavadee.com/en/images/fav-room3.jpg",
-            price: "10000",
+            price: "31,151",
             duration: "per night",
             description:
               "Rayavadee is a luxurious resort situated on the edge of Krabi's National Marine Park. It offers 96 spacious pavilions and villas, all featuring private balconies or terraces with views of the resort's lush gardens or the Andaman Sea. The resort also features a full-service spa, multiple dining options, an outdoor pool, and a range of activities including rock climbing, snorkeling, and island-hopping.",
@@ -2765,7 +2768,7 @@ export const data = {
             name: "Mandarin Oriental, Bangkok",
             image:
               "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236665735.jpg?k=4c3f6d75164608eb834404cd231958eef074346113854124f0bf1c68dc029201&o=&hp=1",
-            price: "12000",
+            price: "49,816",
             duration: "per night",
             description:
               "Mandarin Oriental, Bangkok is a luxurious hotel situated on the banks of the Chao Phraya River in Bangkok. It features 393 elegant rooms and suites, all featuring stunning views of the river or the city. The hotel also offers a full-service spa, multiple dining options, an outdoor pool, and a range of activities including Thai boxing classes and cooking classes.",
